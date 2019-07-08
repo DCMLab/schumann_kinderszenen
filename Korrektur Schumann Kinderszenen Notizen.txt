@@ -1,0 +1,303 @@
+Von fremden Ländern und Menschen
+8	// -> \\
+9	iv -> vi
+11	VI -> IV
+12	I6 -> I
+14	Phrasenende I\\
+14	Auftakt zu T. 15 als V43(4)
+22	// -> \\
+
+Kuriose Geschichte
+2	Sechzehntel genau genommen: #vii%7/ii
+2	V2(+2) -> V2(9)
+3	vi6(7)-I(+6) -> vi65-I(+6), 7 kein Vorhalt -> Septakkord
+3	V2 -> V7
+4	// -> \\
+4	Auftakt wieder als I
+5	Sechzehntel genau genommen: #vii%7/ii, s.o.
+5	V2 -> wie in T. 2, auch V2(9)
+7	V7(+2) V -> V7(9) V7
+8	V7 nicht doppelt schreiben
+8	Phrasenende I\\
+8	im Auftakt zusätzlich noch viio6
+9	V/vi(6) -> V(6)/vi
+10	zusätzlich ii (im Bassdurchgang) -> IV ii
+10	@none ist deutbar als V6(4)
+11	I(2) -> I(9), weil Grundton gleichzeitig klingt
+11	I64 -> V(64)
+12	Phrasenende V\\ (Halbschluss)
+12	Reprise beginnt mit Auftakt -> Tonartwechsel gleichzeitig -> I.#viio7/ii
+13	V65 -> V43
+13	Sechzehntel #vii%7/ii, s.o.
+13	V2(+2) -> V2(9), s.o.
+15	vi65 als Septakkord, s.o.
+15	V2 -> V7, s.o.
+15	Durchgang im Bass dann V65
+16	// -> \\
+17	Sechzehntel #vii%7/ii, s.o.
+17	V2(+2) -> V2(9), s.o.
+17	V2(9) löst sich hier einziges Mal auf -> V2 auf 3.75
+20	I(+7+4+2) -> I(974)
+20	// -> \\
+
+Haschemann
+4	// -> \\
+8	// -> \\
+9	G-Dur ist nicht IV. sondern VI. -> VI.I6
+10	viio6(2) -> ii7
+11	in Bezug auf T. 9, vi64 -> I6
+12	viio6 -> V43
+13ff	gut als Orgelpunkt notierbar -> IV(+7+4+2) wird zu V7/IV über IV
+16	V7 doppelt notiert
+20	Phrasenende \\
+21	Phrasenende \\
+
+Bittendes Kind
+1	V7 -> V7(9) Nonvorhalt, der sich am Taktende auflöst
+1	viio7(4) ist eher ein Vorhalt zum V65 -> V65(b96)
+1	viio7 ist (wenn Bass durchklingt) V65
+3	Wiederholung von T. 1, s.o.
+4	// -> \\
+5ff	Keine Modulation, es finden jeweils plagale Wendungen IV - I über dem Orgelpunkt I statt ->
+	I[V7(9)/IV viio2/IV IV64 viio43/IV IV6 viio2 I ... I]\\
+6/8	#viio2 benötigt kein # -> Bezugspunkt D-Dur
+8	Orgelpunkt mit Symbol abschließen (])
+8	// -> \\
+9	Modulation nach V -> V.ii
+9	vii6 -> viio6 (mit angenommenem d als Terz)
+9	vi64 -> fis ein betonter Durchgang, also reicht I6
+10	I(64) -> V(64)
+10	wegen Basslinie auf Schlag 2.5 -> I6
+11f	Wiederholung von T. 9
+12	// -> \\
+13ff	Wiederholung von T. 1
+17	Abschnittsende -> V7\\
+
+Glückes genug
+0	Auftakt als V43(#7)
+1	auf 2 streng genommen ein Vorhalt V7(6)
+2	Orgelpunktzeichen "" -> []
+3	Orgelpunkt höchstens interpretierbar, damit Unterschied zum vorherigen Takt deutlich wird -> Orgelpunkt weglassen
+3	I6 -> wenn dieser kleine Durchgang gedeutet werden soll, dann schon iii, würde ihn aber weglassen
+3	V7 deutlich mit 9 -> V7(9)
+4	mit Bassdurchgang auf 1.5 -> I6
+4	Halbschluss auf 2 -> V\\
+4	Auftakt nicht mit 2 sondern #7 -> V7(#7)
+5	Orgelpunkt nicht nötig, sowieso immer V7 -> V7 V7(6) V7
+6	eigentlich doppeldeutig: I(6)-vi6 -> analog zu T. 2 vielleicht nur vi6
+7	auf 2 wieder 6-Vorhalt / hier auch doppeldeutig: IV6(6)-ii64
+8	V65/V keine Zwischendominante -> nur chromatischer Durchgang, also V65(#4#2)
+8	V65(+2) keine 2 sondern #7, s.o.
+10	@none deutbar als V65(#4)
+10	.bIII.V(6) -> hinzugefügte 6 -> .bIII.V(+6)
+11	V7(+6) -> V7(13), weil 5 vorhanden
+11	V65 ohne C -> also viio
+12	Orgelpunktzeichen "" in []
+13	V2 zusätzlich mit d und ohne c -> also vii%43
+13	I6 eher als Durchgang s.o.
+13	V43 ohne c -> also viio6
+13	V7 auf 2.5 mit None -> V7(9)
+15	V7(+6) -> V7(13), s.o.
+15	#viio7 -> deutliches Zeichen für Rückmodulation nach I. -> ohne #, Bezugspunkt D-Dur -> I.viio7
+16	Modulation nicht II sondern I -> außerdem schon in T. 15 erfolgt
+16	@none deutbar als i6(2)
+17	I -> IV
+17	V7 -> V43/IV
+18	// -> \\
+
+Wichtige Begebenheit
+0	Bassdurchgang -> I6
+4	// -> \\
+4	Bassdurchgang -> I6, s.o.
+8	// -> \\
+9	Ganzer folgender Abschnitt in D-Dur -> IV.I I6 etc.
+10	V2 V65 -> ii2 ii65
+11	V7/IV V65/IV -> V7 V65
+12	kein Tonartwechsel nötig -> nur kurzzeitige Zwischendominante zur IV.Stufe -> V7/IV V65/IV
+13	I(4) -> IV(4) IV6(11) IV64(4)
+14	V(64) I6 V64 -> IV64 IV6 I64
+15	V.ii43 iv64 ii -> ii65 vi64 ii7
+16	Phrasenende \\
+16	Bassdurchgang -> I6, s.o.
+20	// -> \\
+20	Bassdurchgang -> I6, s.o.
+24	// -> \\
+
+Träumerei
+0	.F.@none -> .F.V
+2	I nicht nochmal schreiben
+3	V7 -> V7 V7(9)
+4	// -> \\
+4	Auftakt zu T. 5 -> V64
+6	I nicht nochmal schreiben
+8	V7 -> V7 V7(6)
+8	nach I Abschnittsende -> \\
+8	Auftakt schon als Rückmodulation -> I.V43
+9	I.I -> I
+10	Modulation erst auf 1.5 -> iv(7)-iv7 (7 kein Vorhalt) -> ii.iv7
+10	V(2) -> V(9) weil Grundton vorhanden
+10	V65-#viio -> d klingt noch, also nicht #viio
+12	zweites V(64) schon als Auflösung -> V(64) i -> i64(2) i\\
+12	@none -> V6/III
+14	Modulation erst auf 1.5 -> vi.@none ii V(2) -> (-) vi.iv7 V(9)
+14	V65-#viio -> a klingt noch, also nicht #viio, s.o.
+16	zweites V(64) schon als Auflösung -> V(64) -> i64
+16	streng genommen auf 3.5 schon Modulation -> I.IVM7
+16	I.V2 -> V2
+16	V7 (Septime klingt nicht mehr) -> V
+18	I nicht nochmal schreiben
+19	V7 -> V7 V7(9)
+20	\\ erst nach V auf 2
+20	Auftakt zu 21 -> V64
+22	I nicht nochmal schreiben
+22	auf Fermate V7/V -> V7(9)/V V7/V
+23	V7 -> V7 V7(9)
+24	V7(2) -> V7(9) weil Grundton vorhanden
+24	Schlussakkord fehlt -> I\\
+
+Am Kamin
+0	.F.@none -> .F.V
+1	II -> I
+2	ii65 -> ii7
+4	// -> \\
+6	ii65 -> ii7
+8	Phrasenende -> I\\
+9	Orgelpunktzeichen " -> [
+11	Schlag zusammenfassen -> ii6-ii -> ii
+11	V65/ii -> wie vorher auch V2/ii
+13	Takt zusammenfassen wie vorher V2/ii
+15/16	iii -> iii6
+16	V65/iii nicht doppelt schreiben
+16	Orgelpunktzeichen " -> ]
+20	// -> \\
+22	V7/V -> ii7 V7/V
+24/25	// -> \\
+27	#viio/IV (brauch kein #) -> viio/IV
+28	ii6 -> ii65 ii7
+28	+6 -> 6 (Quinte nicht vorhanden)
+29	Abschnittsende weglassen wegen Bassführung und kommender Wiederholung I6// -> I6 I I64
+31/32	s.o.
+33	// -> \\
+
+Ritter vom Steckenpferd
+1	Orgelpunktzeichen " -> [
+1	V"I -> V[I6
+2	I -> I6 I
+5	I -> I6
+8	schon als Auflösung -> V(64) I"// -> I]\\
+9	IV6(2) -> vi
+11	ab hier schon in ii -> iv.Ger65 -> ii.#viio65(b3)
+12	V7 V(64+7) V(64) #viio7/V -> iv64(#7) iv64 #viio7
+13	ii.i -> i
+15	i.Ger65 -> I.Ger6
+17	Orgelpunktzeichen " -> [
+21	I64 doppelt geschrieben
+21	IV6(2) -> IV(9) weil Grundton vorhanden
+23	V2(4)
+24	I"// -> I]\\
+
+Fast zu ernst
+0	Auftakt beginnt mit V
+1	Orgelpunkt schon ab hier, nicht erst T. 2 -> i[i
+2	I"V(6) V7" -> (-) V7
+3	i(7) noch als Teil des V7 vorher -> i(7) i" -> (-) i]
+4	Modulation nach H schon hier, #viio2/III -> III.ii%43
+5	auf nur 5, nicht 654 zusammen -> III.V(6+54) V(64) -> V V(64)
+8	I nicht doppelt schreiben -> \\ schon in T. 8
+8	Auftakt zu T. 9 analog zu T. 0 als V
+9	Orgelpunktzeichen " -> [
+10	Harmoniewechsel erst auf 1.5 -> V7(6) V7(+2) -> (-) V7(b9)
+11	I(7) noch als Teil des V7 vorher -> I(7) I" -> (-) I]
+13	durch Kadenzkontext auch hier Modulation -> v.V(64)
+14	VV7(+2) -> V7(9)
+15	hier Beginn vom Orgelpunkt, vi -> i[i\\
+16	bleibt in v -> i.@nonw -> (-)
+17	Harmoniewechsel erst auf 1.5 -> #viio43/iv
+18	Harmoniewechsel erst auf 1.5 -> iv6
+19	Harmoniewechsel erst auf 1.5 -> #viio43
+20	Harmoniewechsel erst auf 1.5, Phrasenschluss schon hier -> (Rückmodulation) i.V\\
+23	VI -> iv65
+24	V7/III -> V/III V7(13)/III V7/III
+25	III(2) -> III(9)
+27	i(2) i// -> i(9) i\\
+28	wie in T. 27 auch i(9)
+28f	ais nicht 7 sondern 9, außerdem nicht doppelt schreiben -> i(+7) -> i(9)
+31	Abschluss schon hier erreicht -> i\\
+
+Fürchtenmachen
+1	vo6 schon auf 2.5
+2	Modulation nach III kann schon hier beginnen -> #vii%7/VII #viio7/VIII ivo6 -> III.vii%7/V viio7/V iio6
+3	III.@none -> I6(9)
+4	I nicht wiederholen
+5	Orgelpunktzeichen " -> [, Orgelpunkt beginnt schon in T. 4
+5	I -> I6 (erst auf 1.5)
+5	V7 -> keine 7
+5	#viio64/V -> viio64/V
+6	Orgelpunktzeichen " -> ]
+7	I -> I6
+8	I nicht wiederholen, s.o.
+8	// -> \\
+9	auf 1.5 mit dem Bassdurchgang -> i6
+11	auf 1.5 mit dem Bassdurchgang -> I6
+12	2.5 schon Rückmodulation nach i -> i.V(64)\\
+13	i. nicht mehr nötig
+14	Modulation nach III, nicht nach VI -> III.I (durch Wiederholung des 1. Teils bereits in III, muss Analyse III. hier noch schreiben?)
+17	Phrasenende -> I\\
+18	ab T. 18 wieder in i -> i.i etc.
+19	V/vi -> V7
+20	#viio6/IV IV6 -> VII-v6 VI6
+21	V7/iii III-V/vi// -> V7/V [V\\
+22	i. nicht mehr nötig, Orgelpunkt h -> ... vo6]
+23	nach Wiederholung 1. Teil sollte hier eigentlich i.i geschrieben werden?
+23	auf 1.5 mit dem Bassdurchgang -> i6, s.o.
+25	auf 1.5 mit dem Bassdurchgang -> I6, s.o.
+26	2.5 schon Rückmodulation nach i -> i.V(64)\\, s.o.
+27-33.5	Wiederholung 1. Teil -> s.o.
+33	V43 -> ii7
+33	I -> V7
+34	V7 nicht nochmal schreiben
+35	Schlussakkord vergessen -> I\\
+
+Kind im Einschlummern
+4	iv6(7)-iv7 -> VIM7
+8	iv6(7)-iv7 -> VIM7
+8	Phrasenende \\
+9	nach den gegebenen Vorzeichen -> I.I[I
+9	Orgelpunktzeichen " -> [
+11	Orgelpunktzeichen " -> ]
+12	V// -> V64\\
+13	Orgelpunktzeichen " -> [
+15	Orgelpunktzeichen " -> ]
+15-16	Analog zu T. 11-12 keine Modulation
+17	auch keine Modulation nötig i -> v etc.
+20	V7(2)/V -> V7(9)/V
+20	V// -> V\\
+21	.bIII. wäre Ges-Dur von e-moll
+21	Modulation zurück nach i -> BIII.IV(+7) -> i.VIM7 etc.
+22	V7(6) V7 I -> V7(6)/III V7/III III
+23	s. T. 21
+24	V6(+6)/vi V65/vi -> V6(6) V65
+25	i. nicht mehr nötig
+27	iv(2) -> iv(9)
+28	III(2) -> III(9)
+29	VI7 iio(2) -> VIM7 iio(9)
+30	i(64) -> iv64 iv\\
+
+Der Dichter spricht
+3	ii6 -> ii65
+3	vii%/V -> vii%7/V
+5	ii.#viio43/ii -> ii.#viio43
+7	Pausen werden nicht annotiert
+8	V nicht doppelt schreiben
+8	Phrasenende i\\
+11	#viio/vi -> wechselt keine Akkordlage in Bezug auf T. 10
+12	Rezitativ ausannotieren -> #viio43/vi #viio7/iii #viio65/iii viio65/V
+13	I. nicht nötig
+15	ii6 -> ii65, s.o.
+15	vii%/V -> vii%7/V, s.o.
+19	Pausen, s.o.
+20	V nicht doppelt schreiben, s.o.
+21	Pausen, s.o.
+22	V nicht doppelt schreiben, s.o.
+23/24	Pausen, s.o.
+25	I// -> I\\

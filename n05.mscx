@@ -176,7 +176,7 @@
       <VBox>
         <height>10</height>
         <Text>
-          <pos x="1.23936" y="-2.20331"/>
+          <pos x="1.10772" y="-5.88235"/>
           <style>Title</style>
           <text>Glückes Genug
 (Quite Happy)</text>
@@ -197,14 +197,9 @@
           <subtype>p</subtype>
           <velocity>55</velocity>
           </Dynamic>
-        <Tempo>
-          <tempo>1.46667</tempo>
-          <followText>1</followText>
-          <pos x="-4.27646" y="-9.45205"/>
-          <text>(<sym>unicodeNoteQuarterUp</sym> = 88)</text>
-          </Tempo>
         <Harmony>
-          <name>.D.@none</name>
+          <name>.D.V43(#7)</name>
+          <pos x="-2.57968" y="-5"/>
           </Harmony>
         <Slur id="2">
           <track>0</track>
@@ -268,7 +263,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="28.9144" y="9.67819"/>
+            <pos x="28.9307" y="9.67819"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -291,6 +286,9 @@
             <tpc>21</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7(6)</name>
+          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -426,7 +424,7 @@
         <startRepeat/>
         <stretch>0.9</stretch>
         <Harmony>
-          <name>V&quot;I</name>
+          <name>V[I</name>
           </Harmony>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -455,7 +453,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>I64&quot;</name>
+          <name>I64]</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -581,7 +579,7 @@
       <Measure number="3">
         <stretch>0.9</stretch>
         <Harmony>
-          <name>V&quot;V</name>
+          <name>V</name>
           </Harmony>
         <Slur id="4">
           <track>0</track>
@@ -625,9 +623,6 @@
           <leadingSpace>0.3</leadingSpace>
           <trailingSpace>0</trailingSpace>
           </Segment>
-        <Harmony>
-          <name>I6</name>
-          </Harmony>
         <Chord>
           <durationType>16th</durationType>
           <Note>
@@ -646,7 +641,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7&quot;</name>
+          <name>V7(9)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -760,6 +755,9 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -768,7 +766,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V\\</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -779,7 +777,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(+2)</name>
+          <name>V7(#7)</name>
           </Harmony>
         <Slur id="7">
           <track>0</track>
@@ -917,7 +915,7 @@
         <stretch>0.8</stretch>
         <vspacerUp>13</vspacerUp>
         <Harmony>
-          <name>V&quot;V7</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -931,20 +929,15 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <tick>4320</tick>
         <Harmony>
-          <name>V65</name>
-          </Harmony>
-        <tick>4560</tick>
-        <Harmony>
-          <name>iv(2)</name>
+          <name>V7(6)</name>
           </Harmony>
         <Rest>
           <offset x="0" y="1"/>
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>V43&quot;</name>
+          <name>V7</name>
           </Harmony>
         <Slur id="8">
           <track>0</track>
@@ -1082,7 +1075,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="-1.04296" y="0"/>
-            <pos x="22.5066" y="-2.5"/>
+            <pos x="24.1392" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -1110,7 +1103,8 @@
           <trailingSpace>0</trailingSpace>
           </Segment>
         <Harmony>
-          <name>I(+6)</name>
+          <name>vi6</name>
+          <pos x="-0.4" y="-7"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -1129,6 +1123,7 @@
         <tick>5760</tick>
         <Harmony>
           <name>V2/IV</name>
+          <pos x="-0.903942" y="-7.16732"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1251,6 +1246,7 @@
         <stretch>0.8</stretch>
         <Harmony>
           <name>IV6</name>
+          <pos x="0" y="-7"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1270,6 +1266,10 @@
           <leadingSpace>0.5</leadingSpace>
           <trailingSpace>0</trailingSpace>
           </Segment>
+        <Harmony>
+          <name>IV6(6)-ii64</name>
+          <pos x="0" y="-7"/>
+          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -1282,15 +1282,9 @@
           <pos x="0.146738" y="8.47272"/>
           <text><i><font size="12"></font>rit.</i></text>
           </StaffText>
-        <Tempo>
-          <tempo>1.43333</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>86</text>
-          </Tempo>
         <Harmony>
           <name>iv6</name>
+          <pos x="0" y="-7"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1306,7 +1300,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="41.849" y="-3.06512"/>
+            <pos x="56.5744" y="-3.06512"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -1427,20 +1421,19 @@
         </Measure>
       <Measure number="8">
         <stretch>0.8</stretch>
-        <Tempo>
-          <tempo>1.4</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>84</text>
-          </Tempo>
         <Harmony>
           <name>V7</name>
+          <pos x="0" y="-9"/>
           </Harmony>
         <Volta id="11">
           <endHook>1</endHook>
           <Segment>
-            <subtype>0</subtype>
+            <subtype>1</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-5"/>
+            </Segment>
+          <Segment>
+            <subtype>3</subtype>
             <off2 x="0" y="0"/>
             <offset x="0" y="-5"/>
             </Segment>
@@ -1456,15 +1449,9 @@
             <tpc>21</tpc>
             </Note>
           </Chord>
-        <Tempo>
-          <tempo>1.33333</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>80</text>
-          </Tempo>
         <Harmony>
           <name>IV6</name>
+          <pos x="0" y="-9"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1473,15 +1460,9 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
-        <Tempo>
-          <tempo>1.3</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>78</text>
-          </Tempo>
         <Harmony>
-          <name>V65/V</name>
+          <name>V65(#4#2)</name>
+          <pos x="0" y="-9"/>
           </Harmony>
         <endSpanner id="10"/>
         <Chord>
@@ -1493,15 +1474,9 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Tempo>
-          <tempo>1.26667</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>7665</text>
-          </Tempo>
         <Harmony>
-          <name>V65(+2)</name>
+          <name>V65(#7)</name>
+          <pos x="0" y="-9"/>
           </Harmony>
         <Slur id="12">
           <track>0</track>
@@ -1645,25 +1620,16 @@
       <Measure number="9">
         <endRepeat>2</endRepeat>
         <stretch>0.8</stretch>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <Tempo>
-          <tempo>1.46667</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>88</text>
-          </Tempo>
         <Harmony>
           <name>V65</name>
+          <pos x="0.3" y="-9"/>
           </Harmony>
         <HairPin id="13">
           <subtype>0</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="40.9371" y="-3.96843"/>
+            <pos x="-44.8588" y="-3.96843"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -1681,6 +1647,7 @@
           </Chord>
         <Harmony>
           <name>V7</name>
+          <pos x="0" y="-9"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1689,6 +1656,10 @@
             <tpc>21</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7(6)</name>
+          <pos x="0" y="-9"/>
+          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -1702,6 +1673,7 @@
         <tick>8640</tick>
         <Harmony>
           <name>V65</name>
+          <pos x="0" y="-9"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1825,15 +1797,9 @@
       <Measure number="10">
         <stretch>0.9</stretch>
         <vspacerUp>12.5</vspacerUp>
-        <Tempo>
-          <tempo>1.36667</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>82</text>
-          </Tempo>
         <Harmony>
           <name>V7</name>
+          <pos x="0" y="-8"/>
           </Harmony>
         <endSpanner id="11"/>
         <Volta id="15">
@@ -1853,7 +1819,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="-2.91837" y="0"/>
-            <pos x="8.8447" y="-2.88938"/>
+            <pos x="36.6283" y="-2.88938"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -1876,15 +1842,9 @@
             <tpc>21</tpc>
             </Note>
           </Chord>
-        <Tempo>
-          <tempo>1.3</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>78</text>
-          </Tempo>
         <Harmony>
           <name>IV6</name>
+          <pos x="0" y="-8"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1897,15 +1857,9 @@
           <leadingSpace>0.5</leadingSpace>
           <trailingSpace>0</trailingSpace>
           </Segment>
-        <Tempo>
-          <tempo>1.26667</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>76</text>
-          </Tempo>
         <Harmony>
-          <name>@none</name>
+          <name>V65(#4)</name>
+          <pos x="0" y="-8"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -1919,17 +1873,9 @@
         <tick>9480</tick>
         <endSpanner id="16"/>
         <tick>9600</tick>
-        <Tempo>
-          <tempo>1.16667</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>70</text>
-          </Tempo>
         <Harmony>
-          <root>19</root>
-          <rootCase>1</rootCase>
-          <name>III.V(6)</name>
+          <name>.bIII.V(+6)</name>
+          <pos x="0" y="-8"/>
           </Harmony>
         <Slur id="18">
           <track>0</track>
@@ -2064,15 +2010,9 @@
         </Measure>
       <Measure number="11">
         <stretch>0.9</stretch>
-        <Tempo>
-          <tempo>1.46667</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>88</text>
-          </Tempo>
         <Harmony>
           <name>V7</name>
+          <pos x="0" y="-10.2"/>
           </Harmony>
         <endSpanner id="15"/>
         <HairPin id="19">
@@ -2080,7 +2020,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="35.4234" y="-5"/>
+            <pos x="65.432" y="-5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -2107,7 +2047,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(+6)</name>
+          <name>V7(13)</name>
+          <pos x="0" y="-8"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -2121,7 +2062,8 @@
         <endSpanner id="19"/>
         <tick>10560</tick>
         <Harmony>
-          <name>V65</name>
+          <name>viio</name>
+          <pos x="0" y="-8"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2243,7 +2185,8 @@
       <Measure number="12">
         <stretch>0.9</stretch>
         <Harmony>
-          <name>V&quot;I</name>
+          <name>V[I</name>
+          <pos x="0" y="-7"/>
           </Harmony>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -2258,6 +2201,7 @@
           </Chord>
         <Harmony>
           <name>I6</name>
+          <pos x="0" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2278,7 +2222,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>I64</name>
+          <name>I64]</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2425,7 +2369,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V2</name>
+          <name>vii%43</name>
           </Harmony>
         <Chord>
           <durationType>16th</durationType>
@@ -2451,9 +2395,6 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I6</name>
-          </Harmony>
         <Chord>
           <durationType>16th</durationType>
           <Note>
@@ -2462,7 +2403,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V43</name>
+          <name>viio6</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2475,7 +2416,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7&quot;</name>
+          <name>V7(9)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2607,7 +2548,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V\\</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2761,7 +2702,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="-2.01141" y="0"/>
-            <pos x="41.1307" y="-5"/>
+            <pos x="71.0581" y="-5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -2788,7 +2729,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V(+6)</name>
+          <name>V7(13)</name>
+          <pos x="0" y="-7"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -2802,7 +2744,8 @@
         <endSpanner id="24"/>
         <tick>14400</tick>
         <Harmony>
-          <name>#viio7/ii</name>
+          <name>I.viio7</name>
+          <pos x="0" y="-7"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2923,7 +2866,8 @@
         </Measure>
       <Measure number="16">
         <Harmony>
-          <name>II.I</name>
+          <name>I</name>
+          <pos x="0.3" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2943,7 +2887,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>@none</name>
+          <name>i6(2)</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -3075,7 +3019,8 @@
         </Measure>
       <Measure number="17">
         <Harmony>
-          <name>I</name>
+          <name>IV</name>
+          <pos x="0" y="-7.86836"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -3085,7 +3030,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7</name>
+          <name>V43/IV</name>
+          <pos x="0" y="-8"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -3094,19 +3040,9 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-7.5"/>
-          <text><i><font size="12"></font>ritardando</i></text>
-          </StaffText>
-        <Tempo>
-          <tempo>1.26667</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>76</text>
-          </Tempo>
         <Harmony>
           <name>iv6(2)</name>
+          <pos x="0" y="-8"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -3116,15 +3052,9 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Tempo>
-          <tempo>1.16667</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>70</text>
-          </Tempo>
         <Harmony>
           <name>IV6</name>
+          <pos x="0" y="-8"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -3258,15 +3188,9 @@
           <continueAt></continueAt>
           <playRepeats>0</playRepeats>
           </Jump>
-        <Tempo>
-          <tempo>1.13333</tempo>
-          <followText>1</followText>
-          <pos x="-0.807733" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>68</text>
-          </Tempo>
         <Harmony>
           <name>V(64)</name>
+          <pos x="0" y="-8"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -3275,15 +3199,9 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <Tempo>
-          <tempo>1.1</tempo>
-          <followText>1</followText>
-          <pos x="0.585734" y="-2.46954"/>
-          <visible>0</visible>
-          <text><b></b>66</text>
-          </Tempo>
         <Harmony>
           <name>V7</name>
+          <pos x="0" y="-8"/>
           </Harmony>
         <Chord>
           <offset x="1.55647" y="0"/>
@@ -3293,15 +3211,9 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Tempo>
-          <tempo>1.03333</tempo>
-          <followText>1</followText>
-          <pos x="2.37733" y="-2.27047"/>
-          <visible>0</visible>
-          <text><b></b>62</text>
-          </Tempo>
         <Harmony>
-          <name>I//</name>
+          <name>I\\</name>
+          <pos x="2.23789" y="-7.63281"/>
           </Harmony>
         <Chord>
           <offset x="3.11294" y="0"/>
@@ -3475,7 +3387,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="-3.3883" y="0"/>
-            <pos x="50.2401" y="5.5"/>
+            <pos x="52.27" y="5.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -4090,7 +4002,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="-3.3883" y="0"/>
-            <pos x="63.9992" y="5.5"/>
+            <pos x="93.4838" y="5.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
