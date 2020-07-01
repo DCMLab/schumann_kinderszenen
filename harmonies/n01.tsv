@@ -1,0 +1,47 @@
+mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	relativeroot	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
+1	1	0	.G.I	G	I		I	I						M	0	0	0, 4, 1		0	0
+1	1	1/4	#viio7/V	G	I		#viio7/V	#vii	o	7		V		o7	0	0	13, 10, 7, 4		13	13
+2	2	0	V	G	I		V	V						M	0	0	1, 5, 2		1	1
+2	2	1/4	V65	G	I		V65	V		65				Mm7	0	0	5, 2, -1, 1		1	5
+3	3	0	I	G	I		I	I						M	0	0	0, 4, 1		0	0
+3	3	1/4	#viio7/V	G	I		#viio7/V	#vii	o	7		V		o7	0	0	13, 10, 7, 4		13	13
+4	4	0	V	G	I		V	V						M	0	0	1, 5, 2		1	1
+4	4	1/4	V65	G	I		V65	V		65				Mm7	0	0	5, 2, -1, 1		1	5
+5	5	0	I	G	I		I	I						M	0	0	0, 4, 1		0	0
+5	5	1/4	I6	G	I		I6	I		6				M	0	0	4, 1, 0		0	4
+6	6	0	IV	G	I		IV	IV						M	0	0	-1, 3, 0		-1	-1
+6	6	1/4	IV6	G	I		IV6	IV		6				M	0	0	3, 0, -1		-1	3
+7	7	0	V7(4)	G	I		V7(4)	V		7	4			Mm7	0	0	1, 0, 2, -1		1	1
+7	7	1/4	V7	G	I		V7	V		7				Mm7	0	0	1, 5, 2, -1		1	1
+8	8	0	I\\	G	I		I	I					\\	M	0	0	0, 4, 1		0	0
+9	9	0	vi	G	I		vi	vi						m	0	0	3, 0, 4		3	3
+9	9	1/4	ii	G	I		ii	ii						m	0	0	2, -1, 3		2	2
+10	10	0	V	G	I		V	V						M	0	0	1, 5, 2		1	1
+10	10	3/16	V2	G	I		V2	V		2				Mm7	0	0	-1, 1, 5, 2		1	-1
+10	10	1/4	I6	G	I		I6	I		6				M	0	0	4, 1, 0		0	4
+11	11	0	IV	G	I		IV	IV						M	0	0	-1, 3, 0		-1	-1
+11	11	1/4	ii%7/vi	G	I		ii%7/vi	ii	%	7		vi		%7	0	0	5, 4, 11, 3		5	5
+12	12	0	V/vi	G	I		V/vi	V				vi		M	0	0	4, 8, 5		4	4
+12	12	3/16	V2/vi	G	I		V2/vi	V		2		vi		Mm7	0	0	2, 4, 8, 5		4	2
+12	12	1/4	I6	G	I		I6	I		6				M	0	0	4, 1, 0		0	4
+13	13	0	IV	G	I		IV	IV						M	0	0	-1, 3, 0		-1	-1
+13	13	1/4	V2	G	I		V2	V		2				Mm7	0	0	-1, 1, 5, 2		1	-1
+14	14	0	I6	G	I		I6	I		6				M	0	0	4, 1, 0		0	4
+14	14	3/16	V64	G	I		V64	V		64				M	0	0	2, 1, 5		1	2
+14	14	1/4	I\\	G	I		I	I					\\	M	0	0	0, 4, 1		0	0
+14	14	3/8	V43(4)	G	I		V43(4)	V		43	4			Mm7	0	0	2, -1, 1, 0		1	2
+15	15	0	I	G	I		I	I						M	0	0	0, 4, 1		0	0
+15	15	1/4	#viio7/V	G	I		#viio7/V	#vii	o	7		V		o7	0	0	13, 10, 7, 4		13	13
+16	16	0	V	G	I		V	V						M	0	0	1, 5, 2		1	1
+16	16	1/4	V65	G	I		V65	V		65				Mm7	0	0	5, 2, -1, 1		1	5
+17	17	0	I	G	I		I	I						M	0	0	0, 4, 1		0	0
+17	17	1/4	#viio7/V	G	I		#viio7/V	#vii	o	7		V		o7	0	0	13, 10, 7, 4		13	13
+18	18	0	V	G	I		V	V						M	0	0	1, 5, 2		1	1
+18	18	1/4	V65	G	I		V65	V		65				Mm7	0	0	5, 2, -1, 1		1	5
+19	19	0	I	G	I		I	I						M	0	0	0, 4, 1		0	0
+19	19	1/4	I6	G	I		I6	I		6				M	0	0	4, 1, 0		0	4
+20	20	0	IV	G	I		IV	IV						M	0	0	-1, 3, 0		-1	-1
+20	20	1/4	IV6	G	I		IV6	IV		6				M	0	0	3, 0, -1		-1	3
+21	21	0	V7(4)	G	I		V7(4)	V		7	4			Mm7	0	0	1, 0, 2, -1		1	1
+21	21	1/4	V7	G	I		V7	V		7				Mm7	0	0	1, 5, 2, -1		1	1
+22	22	0	I\\	G	I		I	I					\\	M	0	0	0, 4, 1		0	0
