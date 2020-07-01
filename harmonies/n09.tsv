@@ -1,49 +1,49 @@
-mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	special	form	figbass	changes	relativeroot	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
-1	1	0	.C.I6	C	I		I6	I			6				M	0	0	4, 1, 0		0	4
-1	1	1/4	V[I6	C	I	V	I6	I			6				M	0	0	4, 1, 0		0	4
-1	1	1/2	#viio7/iii	C	I	V	#viio7/iii	#vii		o	7		iii		o7	0	0	9, 6, 3, 0		9	9
-2	2	0	I6	C	I	V	I6	I			6				M	0	0	4, 1, 0		0	4
-2	2	1/2	I	C	I	V	I	I							M	0	0	0, 4, 1		0	0
-3	3	0	V43(4)	C	I	V	V43(4)	V			43	4			Mm7	0	0	2, -1, 1, 0		1	2
-3	3	1/2	V6	C	I	V	V6	V			6				M	0	0	5, 2, 1		1	5
-4	4	0	I	C	I	V	I	I							M	0	0	0, 4, 1		0	0
-5	5	0	I6	C	I	V	I6	I			6				M	0	0	4, 1, 0		0	4
-5	5	1/2	IV	C	I	V	IV	IV							M	0	0	-1, 3, 0		-1	-1
-6	6	0	I6	C	I	V	I6	I			6				M	0	0	4, 1, 0		0	4
-6	6	1/2	I	C	I	V	I	I							M	0	0	0, 4, 1		0	0
-7	7	0	V43	C	I	V	V43	V			43				Mm7	0	0	2, -1, 1, 5		1	2
-7	7	1/2	I6	C	I	V	I6	I			6				M	0	0	4, 1, 0		0	4
-8	8	0	I]\\	C	I	V	I	I						\\	M	0	0	0, 4, 1		0	0
-9	9	0	V2/IV	C	I		V2/IV	V			2		IV		Mm7	0	0	-2, 0, 4, 1		0	-2
-9	9	1/2	vi	C	I		vi	vi							m	0	0	3, 0, 4		3	3
-10	10	0	V43/IV	C	I		V43/IV	V			43		IV		Mm7	0	0	1, -2, 0, 4		0	1
-10	10	1/2	IV(4)	C	I		IV(4)	IV				4			M	0	0	-1, 5, 0		-1	-1
-11	11	0	V65/IV	C	I		V65/IV	V			65		IV		Mm7	0	0	4, 1, -2, 0		0	4
-11	11	1/2	ii.#viio65(b3)	C	ii		#viio65(b3)	#vii		o	65	b3			o7	0	1	-5, -1, -4, 5		5	-5
-12	12	0	iv64(#7)	C	ii		iv64(#7)	iv			64	#7			m	0	1	0, 4, -4		-1	0
-12	12	1/4	iv64	C	ii		iv64	iv			64				m	0	1	0, -1, -4		-1	0
-12	12	1/2	#viio7	C	ii		#viio7	#vii		o	7				o7	0	1	5, 2, -1, -4		5	5
-13	13	0	i	C	ii		i	i							m	0	1	0, -3, 1		0	0
-13	13	1/2	iio6	C	ii		iio6	ii		o	6				o	0	1	-1, -4, 2		2	-1
-14	14	0	V(64)	C	ii		V(64)	V				64			M	0	1	1, 0, -3		1	1
-14	14	1/2	V7	C	ii		V7	V			7				Mm7	0	1	1, 5, 2, -1		1	1
-15	15	0	i	C	ii		i	i							m	0	1	0, -3, 1		0	0
-15	15	1/2	I.Ger6	C	I		Ger6	vii	Ger	o	65	b3	V		M	0	0	-4, 0, -3, 6		6	-4
-16	16	0	V7(4)	C	I		V7(4)	V			7	4			Mm7	0	0	1, 0, 2, -1		1	1
-16	16	1/2	V7	C	I		V7	V			7				Mm7	0	0	1, 5, 2, -1		1	1
-17	17	0	I[I	C	I	I	I	I							M	0	0	0, 4, 1		0	0
-17	17	1/4	I6	C	I	I	I6	I			6				M	0	0	4, 1, 0		0	4
-17	17	1/2	IV	C	I	I	IV	IV							M	0	0	-1, 3, 0		-1	-1
-18	18	0	I6	C	I	I	I6	I			6				M	0	0	4, 1, 0		0	4
-18	18	1/2	I	C	I	I	I	I							M	0	0	0, 4, 1		0	0
-19	19	0	V43(4)	C	I	I	V43(4)	V			43	4			Mm7	0	0	2, -1, 1, 0		1	2
-19	19	1/2	I6	C	I	I	I6	I			6				M	0	0	4, 1, 0		0	4
-20	20	0	I	C	I	I	I	I							M	0	0	0, 4, 1		0	0
-20	20	1/2	I64	C	I	I	I64	I			64				M	0	0	1, 0, 4		0	1
-21	21	1/2	IV6(9)	C	I	I	IV6(9)	IV			6	9			M	0	0	3, 0, -1	1	-1	3
-22	22	0	I64	C	I	I	I64	I			64				M	0	0	1, 0, 4		0	1
-22	22	1/2	I6	C	I	I	I6	I			6				M	0	0	4, 1, 0		0	4
-23	23	0	V2(4)	C	I	I	V2(4)	V			2	4			Mm7	0	0	-1, 1, 0, 2		1	-1
-23	23	1/2	I64	C	I	I	I64	I			64				M	0	0	1, 0, 4		0	1
-24	24	0	I6	C	I	I	I6	I			6				M	0	0	4, 1, 0		0	4
-24	24	1/2	I]\\	C	I	I	I	I						\\	M	0	0	0, 4, 1		0	0
+mc	mn	onset	label
+1	1	0	.C.I6
+1	1	1/4	V[I6
+1	1	1/2	#viio7/iii
+2	2	0	I6
+2	2	1/2	I
+3	3	0	V43(4)
+3	3	1/2	V6
+4	4	0	I
+5	5	0	I6
+5	5	1/2	IV
+6	6	0	I6
+6	6	1/2	I
+7	7	0	V43
+7	7	1/2	I6
+8	8	0	I]\\
+9	9	0	V2/IV
+9	9	1/2	vi
+10	10	0	V43/IV
+10	10	1/2	IV(4)
+11	11	0	V65/IV
+11	11	1/2	ii.#viio65(b3)
+12	12	0	iv64(#7)
+12	12	1/4	iv64
+12	12	1/2	#viio7
+13	13	0	i
+13	13	1/2	iio6
+14	14	0	V(64)
+14	14	1/2	V7
+15	15	0	i
+15	15	1/2	I.Ger6
+16	16	0	V7(4)
+16	16	1/2	V7
+17	17	0	I[I
+17	17	1/4	I6
+17	17	1/2	IV
+18	18	0	I6
+18	18	1/2	I
+19	19	0	V43(4)
+19	19	1/2	I6
+20	20	0	I
+20	20	1/2	I64
+21	21	1/2	IV6(9)
+22	22	0	I64
+22	22	1/2	I6
+23	23	0	V2(4)
+23	23	1/2	I64
+24	24	0	I6
+24	24	1/2	I]\\

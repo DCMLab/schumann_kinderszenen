@@ -1,42 +1,42 @@
-mc	mn	onset	label	volta	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	relativeroot	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
-1	0	3/16	.g#.V		g#	i		V	V						M	1	1	1, 5, 2		1	1
-2	1	0	i[i		g#	i	i	i	i						m	1	1	0, -3, 1		0	0
-3	2	1/16	V7		g#	i	i	V7	V		7				Mm7	1	1	1, 5, 2, -1		1	1
-4	3	1/16	i]		g#	i	i	i	i						m	1	1	0, -3, 1		0	0
-5	4	0	III.ii%43		g#	III		ii%43	ii	%	43				%7	1	0	8, 0, 2, 1		2	8
-6	5	0	V		g#	III		V	V						M	1	0	1, 5, 2		1	1
-6	5	1/16	V(64)		g#	III		V(64)	V			64			M	1	0	1, 0, 4		1	1
-7	6	0	V7		g#	III		V7	V		7				Mm7	1	0	1, 5, 2, -1		1	1
-8	7	0	I\\		g#	III		I	I					\\	M	1	0	0, 4, 1		0	0
-9	8	3/16	V		g#	III		V	V						M	1	0	1, 5, 2		1	1
-10	9	0	I[I		g#	III	I	I	I						M	1	0	0, 4, 1		0	0
-11	10	1/16	V7(b9)		g#	III	I	V7(b9)	V		7	b9			Mm7	1	0	1, 5, 2, -1	-4	1	1
-12	11	1/16	I]		g#	III	I	I	I						M	1	0	0, 4, 1		0	0
-13	12	0	V43/V		g#	III		V43/V	V		43		V		Mm7	1	0	3, 0, 2, 6		2	3
-14	13	0	v.V(64)		g#	v		V(64)	V			64			M	1	1	1, 0, -3		1	1
-15	14	0	V7		g#	v		V7	V		7				Mm7	1	1	1, 5, 2, -1		1	1
-15	14	1/16	V7(9)		g#	v		V7(9)	V		7	9			Mm7	1	1	1, 5, 2, -1	-4	1	1
-16	15	0	i[i\\		g#	v	i	i	i					\\	m	1	1	0, -3, 1		0	0
-18	17	1/16	#viio43/iv		g#	v	i	#viio43/iv	#vii	o	43		iv		o7	1	1	-2, -5, 4, 1		4	-2
-19	18	1/16	iv6		g#	v	i	iv6	iv		6				m	1	1	-4, 0, -1		-1	-4
-20	19	1/16	#viio43		g#	v	i	#viio43	#vii	o	43				o7	1	1	-1, -4, 5, 2		5	-1
-21	20	1/16	i.V]\\		g#	i	v	V	V					\\	M	1	1	1, 5, 2		1	1
-23	22	0	i		g#	i		i	i						m	1	1	0, -3, 1		0	0
-24	23	0	iv65		g#	i		iv65	iv		65				mm7	1	1	-4, 0, -3, -1		-1	-4
-24	23	1/8	ii%65/III		g#	i		ii%65/III	ii	%	65		III		%7	1	1	-2, 5, -3, -1		-1	-2
-25	24	0	V/III		g#	i		V/III	V				III		M	1	1	-2, 2, -1		-2	-2
-25	24	1/16	V7(13)/III		g#	i		V7(13)/III	V		7	13	III		Mm7	1	1	-2, 2, -1, -4	1	-2	-2
-25	24	3/16	V7/III		g#	i		V7/III	V		7		III		Mm7	1	1	-2, 2, -1, -4		-2	-2
-26	25	0	III(9)		g#	i		III(9)	III			9			M	1	1	-3, 1, -2	-1	-3	-3
-26	25	1/16	III		g#	i		III	III						M	1	1	-3, 1, -2		-3	-3
-27	26	0	V(6)		g#	i		V(6)	V			6			M	1	1	1, 5, -3		1	1
-27	26	1/8	V7(6)		g#	i		V7(6)	V		7	6			Mm7	1	1	1, 5, -3, -1		1	1
-27	26	3/16	V7		g#	i		V7	V		7				Mm7	1	1	1, 5, 2, -1		1	1
-28	27	0	i(9)	1	g#	i		i(9)	i			9			m	1	1	0, -3, 1	2	0	0
-28	27	1/16	i\\	1	g#	i		i	i					\\	m	1	1	0, -3, 1		0	0
-29	28	0	i(9)	2	g#	i		i(9)	i			9			m	1	1	0, -3, 1	2	0	0
-29	28	1/16	i	2	g#	i		i	i						m	1	1	0, -3, 1		0	0
-29	28	3/16	i(9)	2	g#	i		i(9)	i			9			m	1	1	0, -3, 1	2	0	0
-30	29	1/16	i		g#	i		i	i						m	1	1	0, -3, 1		0	0
-31	30	3/16	i(9)		g#	i		i(9)	i			9			m	1	1	0, -3, 1	2	0	0
-32	31	1/16	i\\		g#	i		i	i					\\	m	1	1	0, -3, 1		0	0
+mc	mn	onset	label	volta
+1	0	3/16	.g#.V	
+2	1	0	i[i	
+3	2	1/16	V7	
+4	3	1/16	i]	
+5	4	0	III.ii%43	
+6	5	0	V	
+6	5	1/16	V(64)	
+7	6	0	V7	
+8	7	0	I\\	
+9	8	3/16	V	
+10	9	0	I[I	
+11	10	1/16	V7(b9)	
+12	11	1/16	I]	
+13	12	0	V43/V	
+14	13	0	v.V(64)	
+15	14	0	V7	
+15	14	1/16	V7(9)	
+16	15	0	i[i\\	
+18	17	1/16	#viio43/iv	
+19	18	1/16	iv6	
+20	19	1/16	#viio43	
+21	20	1/16	i.V]\\	
+23	22	0	i	
+24	23	0	iv65	
+24	23	1/8	ii%65/III	
+25	24	0	V/III	
+25	24	1/16	V7(13)/III	
+25	24	3/16	V7/III	
+26	25	0	III(9)	
+26	25	1/16	III	
+27	26	0	V(6)	
+27	26	1/8	V7(6)	
+27	26	3/16	V7	
+28	27	0	i(9)	1
+28	27	1/16	i\\	1
+29	28	0	i(9)	2
+29	28	1/16	i	2
+29	28	3/16	i(9)	2
+30	29	1/16	i	
+31	30	3/16	i(9)	
+32	31	1/16	i\\	

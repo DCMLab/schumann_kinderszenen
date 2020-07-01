@@ -3,3 +3,5 @@ MC 29 in volta [29] has not been excluded from barcount.
 MC 33 is longer 1/2 than its nominal duration 1/4.
 Done parsing n10.mscx
 
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'
