@@ -1,6 +1,5 @@
-Attempting to parse n01.mscx
-The endRepeat in MC 22 (1/2) is not adapted to the irregular measure length in MC 23 (1/4)
-Done parsing n01.mscx
+INFO     n01.ms3 -- Attempting to parse n01.mscx
+WARNING  n01.ms3 -- The endRepeat in MC 22 (1/2) is not adapted to the irregular measure length in MC 23 (1/4)
+INFO     n01.ms3 -- Done parsing n01.mscx
 
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  n01.expand_labels -- #viio7 in major context is most probably an annotation error.
