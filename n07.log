@@ -1,4 +1,4 @@
 INFO     n07.ms3 -- Attempting to parse n07.mscx
 INFO     n07.ms3 -- Done parsing n07.mscx
 
-WARNING  n07.expand_labels -- #viio65 in major context is most probably an annotation error.
+WARNING  n07.expand_labels -- MC 8: #viio65 in major context is most probably an annotation error.

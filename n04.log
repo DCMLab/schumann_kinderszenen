@@ -1,4 +1,7 @@
 INFO     n04.ms3 -- Attempting to parse n04.mscx
 INFO     n04.ms3 -- Done parsing n04.mscx
 
-WARNING  n04.expand_labels -- #viio43 in major context is most probably an annotation error.
+WARNING  n04.expand_labels -- MC 14: #viio43 in major context is most probably an annotation error.
+WARNING  n04.expand_labels -- MC 2: #viio43 in major context is most probably an annotation error.
+WARNING  n04.expand_labels -- MC 16: #viio43 in major context is most probably an annotation error.
+WARNING  n04.expand_labels -- MC 4: #viio43 in major context is most probably an annotation error.
