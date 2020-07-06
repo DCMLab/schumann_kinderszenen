@@ -2,5 +2,5 @@ INFO     n08.ms3 -- Attempting to parse n08.mscx
 WARNING  n08.ms3 -- MC 26 in volta [26] has not been excluded from barcount.
 INFO     n08.ms3 -- Done parsing n08.mscx
 
-WARNING  n08.expand_labels -- MC 31: #viio7 in major context is most probably an annotation error.
 WARNING  n08.expand_labels -- MC 27: #viio7 in major context is most probably an annotation error.
+WARNING  n08.expand_labels -- MC 31: #viio7 in major context is most probably an annotation error.
