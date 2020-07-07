@@ -324,7 +324,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio43/V</name>
+            <name>viio43/V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -520,7 +520,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio43/V</name>
+            <name>viio43/V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -1816,7 +1816,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio43/V</name>
+            <name>viio43/V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -2007,7 +2007,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio43/V</name>
+            <name>viio43/V</name>
             <offset x="0" y="-8"/>
             </Harmony>
           <Chord>

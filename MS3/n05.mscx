@@ -1784,6 +1784,7 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <stretch>0.9</stretch>
         <vspacerUp>12.5</vspacerUp>
         <voice>
@@ -1797,22 +1798,6 @@
                 <measures>-2</measures>
                 </location>
               </prev>
-            </Spanner>
-          <Spanner type="Volta">
-            <Volta>
-              <beginText>2.</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-4"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <endings>2</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
@@ -1828,6 +1813,22 @@
             <next>
               <location>
                 <fractions>5/16</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <beginText>2.</beginText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-4"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>

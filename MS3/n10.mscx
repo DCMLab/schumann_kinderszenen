@@ -2493,6 +2493,7 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <stretch>0.4</stretch>
         <voice>
           <Harmony>

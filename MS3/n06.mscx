@@ -1674,6 +1674,7 @@
           </voice>
         </Measure>
       <Measure len="1/4">
+        <irregular>1</irregular>
         <stretch>1.5</stretch>
         <vspacerUp>15.5</vspacerUp>
         <voice>
@@ -1747,7 +1748,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio7iii</name>
+            <name>#viio7/iii</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>

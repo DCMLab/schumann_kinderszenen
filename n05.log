@@ -2,6 +2,5 @@ INFO     n05.ms3 -- Attempting to parse n05.mscx
 WARNING  n05.ms3 -- Voltas with measure COUNTS [[9, 10], [11]] have different lengths.
     Check measure NUMBERS with authoritative score. To silence the warning, either make all voltas
     the same length or exclude all measures in voltas > 1 from the bar count.
-WARNING  n05.ms3 -- MC 11 in volta [11] has not been excluded from barcount.
 INFO     n05.ms3 -- Done parsing n05.mscx
 

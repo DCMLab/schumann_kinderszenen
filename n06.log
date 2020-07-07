@@ -1,7 +1,2 @@
 INFO     n06.ms3 -- Attempting to parse n06.mscx
-WARNING  n06.ms3 -- MC 19 is completing MC 18 but has not been excluded from bar count!
 INFO     n06.ms3 -- Done parsing n06.mscx
-
-WARNING  n06.expand_labels -- The following chords could not be parsed:
-    mc  mn onset      label
-53  20  17  3/16  #viio7iii

@@ -1,5 +1,4 @@
 INFO     n10.ms3 -- Attempting to parse n10.mscx
-WARNING  n10.ms3 -- MC 29 in volta [29] has not been excluded from barcount.
 INFO     n10.ms3 -- MC 33 is longer 1/2 than its nominal duration 1/4.
 INFO     n10.ms3 -- Done parsing n10.mscx
 
