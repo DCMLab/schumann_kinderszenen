@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.0.5</programVersion>
+  <programRevision>58dd23d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -37,11 +37,7 @@
       <pageWidth>8.5</pageWidth>
       <pageHeight>11</pageHeight>
       <pagePrintableWidth>7.7126</pagePrintableWidth>
-      <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
-      <pageOddLeftMargin>0.393701</pageOddLeftMargin>
-      <pageEvenTopMargin>0.393701</pageEvenTopMargin>
       <pageEvenBottomMargin>0.393701</pageEvenBottomMargin>
-      <pageOddTopMargin>0.393701</pageOddTopMargin>
       <pageOddBottomMargin>0.393701</pageOddBottomMargin>
       <staffLowerBorder>5</staffLowerBorder>
       <lyricsDashForce>0</lyricsDashForce>
@@ -53,7 +49,6 @@
       <clefKeyRightMargin>1.75</clefKeyRightMargin>
       <barNoteDistance>1.2</barNoteDistance>
       <articulationMag>0.8</articulationMag>
-      <harmonyFretDist>0.5</harmonyFretDist>
       <chordSymbolPosBelow x="0" y="-5"/>
       <keySigNaturals>1</keySigNaturals>
       <defaultFramePadding>0.5</defaultFramePadding>
@@ -106,7 +101,7 @@
       <frameAlign>center,center</frameAlign>
       <frameFramePadding>0</frameFramePadding>
       <frameFrameWidth>0</frameFrameWidth>
-      <Spatium>1.7</Spatium>
+      <Spatium>1.5</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -206,20 +201,22 @@
             <subtype>p</subtype>
             <velocity>60</velocity>
             <dynType>0</dynType>
-            <offset x="0.158281" y="4"/>
+            <offset x="0.179385" y="4.53333"/>
             </Dynamic>
           <Harmony>
             <name>.D.V7(9)</name>
-            <offset x="0" y="-7"/>
+            <offset x="0" y="-7.93333"/>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="1.46738" y="-2.34781"/>
-                  <o3 x="1.46738" y="-2.34781"/>
-                  <o4 x="0" y="-2.64128"/>
+                  <o2 x="1.66303" y="-2.66085"/>
+                  <o3 x="1.66303" y="-2.66085"/>
+                  <o4 x="0" y="-2.99345"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -244,7 +241,7 @@
             </Chord>
           <Harmony>
             <name>V65(b96)</name>
-            <offset x="0" y="-7"/>
+            <offset x="0" y="-7.93333"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -259,7 +256,7 @@
             </Segment>
           <Harmony>
             <name>V65</name>
-            <offset x="0" y="-7"/>
+            <offset x="0" y="-7.93333"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -270,6 +267,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -289,6 +288,8 @@
           <location>
             <fractions>1/8</fractions>
             </location>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -314,8 +315,10 @@
         <voice>
           <Harmony>
             <name>I</name>
-            <offset x="0" y="-6"/>
+            <offset x="0" y="-6.8"/>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -331,7 +334,6 @@
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <offset x="-3.03719" y="0"/>
                 </Accidental>
               <pitch>68</pitch>
               <tpc>22</tpc>
@@ -358,6 +360,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -377,6 +381,8 @@
           <location>
             <fractions>1/8</fractions>
             </location>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -396,23 +402,28 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>45</velocity>
-            <offset x="0.658281" y="4.5"/>
+            <offset x="0.746052" y="5.1"/>
             </Dynamic>
           <Harmony>
             <name>V7(9)</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="1.76085" y="-2.64128"/>
-                  <o3 x="1.76085" y="-2.64128"/>
-                  <o4 x="0" y="-2.64128"/>
+                  <o2 x="1.99563" y="-2.99345"/>
+                  <o3 x="1.99563" y="-2.99345"/>
+                  <o4 x="0" y="-2.99345"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -437,7 +448,7 @@
             </Chord>
           <Harmony>
             <name>V65(b96)</name>
-            <offset x="0" y="-4.76211"/>
+            <offset x="0" y="-5.39706"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -452,7 +463,7 @@
             </Segment>
           <Harmony>
             <name>V65</name>
-            <offset x="0" y="-4.76211"/>
+            <offset x="0" y="-5.39706"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -463,6 +474,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -486,6 +499,8 @@
           <location>
             <fractions>1/8</fractions>
             </location>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -512,6 +527,8 @@
           <Harmony>
             <name>I</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -527,7 +544,6 @@
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <offset x="-3.13719" y="0"/>
                 </Accidental>
               <pitch>68</pitch>
               <tpc>22</tpc>
@@ -557,6 +573,8 @@
             </BarLine>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -576,6 +594,8 @@
           <location>
             <fractions>1/8</fractions>
             </location>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -595,25 +615,26 @@
           </voice>
         </Measure>
       <Measure>
-        <vspacerUp>14.5</vspacerUp>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>60</velocity>
             <dynType>0</dynType>
-            <offset x="0.658281" y="4.5"/>
+            <offset x="0.746052" y="5.1"/>
             </Dynamic>
           <Harmony>
             <name>I[V7(9)/IV</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="6.6032" y="-5.13582"/>
-                  <o3 x="1.90759" y="-6.01625"/>
-                  <o4 x="-0.146738" y="-0.146738"/>
+                  <o2 x="7.48363" y="-5.8206"/>
+                  <o3 x="2.16194" y="-6.81842"/>
+                  <o4 x="-0.166303" y="-0.166303"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -665,6 +686,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -701,6 +724,8 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -744,10 +769,15 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>IV6</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -781,6 +811,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -821,6 +853,8 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -872,19 +906,21 @@
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>45</velocity>
-            <offset x="0.658281" y="4.5"/>
+            <offset x="0.569663" y="6.6875"/>
             </Dynamic>
           <Harmony>
             <name>V7(9)/IV</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="6.6032" y="-5.13582"/>
-                  <o3 x="1.90759" y="-6.01625"/>
-                  <o4 x="-0.146738" y="-0.146738"/>
+                  <o2 x="7.48363" y="-5.8206"/>
+                  <o3 x="2.16194" y="-6.81842"/>
+                  <o4 x="-0.166303" y="-0.166303"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -936,6 +972,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -972,6 +1010,8 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1019,6 +1059,8 @@
           <Harmony>
             <name>IV6</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1055,6 +1097,8 @@
             </BarLine>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1095,6 +1139,8 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1142,25 +1188,30 @@
           </voice>
         </Measure>
       <Measure>
-        <vspacerUp>22</vspacerUp>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>60</velocity>
             <dynType>0</dynType>
-            <offset x="0.658281" y="6"/>
+            <offset x="0.746052" y="6.8"/>
             </Dynamic>
           <Harmony>
             <name>V.ii</name>
             </Harmony>
+          <StaffText>
+            <text>ritardando</text>
+            </StaffText>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
               <dynType>0</dynType>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="1.5"/>
-                <off2 x="-8.36406" y="0"/>
+                <offset x="0" y="1.7"/>
+                <off2 x="-9.47927" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -1169,14 +1220,16 @@
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="3.81518" y="-4.2554"/>
-                  <o3 x="3.81518" y="-4.2554"/>
-                  <o4 x="0" y="-3.37497"/>
+                  <o2 x="4.32387" y="-4.82279"/>
+                  <o3 x="4.32387" y="-4.82279"/>
+                  <o4 x="0" y="-3.82497"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -1194,7 +1247,7 @@
             </Chord>
           <Harmony>
             <name>viio6</name>
-            <offset x="0" y="-7"/>
+            <offset x="0" y="-7.93333"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -1229,6 +1282,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1274,12 +1329,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>mp</subtype>
-            <velocity>70</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            </Dynamic>
           <Harmony>
             <name>V(64)</name>
             </Harmony>
@@ -1290,6 +1339,8 @@
                 </location>
               </prev>
             </Spanner>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1332,6 +1383,8 @@
             </Harmony>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1373,6 +1426,8 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1424,19 +1479,22 @@
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>45</velocity>
-            <offset x="0.658281" y="6"/>
+            <offset x="0.746052" y="6.8"/>
             </Dynamic>
           <Harmony>
             <name>ii</name>
             </Harmony>
+          <StaffText>
+            <text>ritardando</text>
+            </StaffText>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
               <dynType>0</dynType>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="1.5"/>
-                <off2 x="-8.36406" y="0"/>
+                <offset x="0.680056" y="-1.56427"/>
+                <off2 x="-9.47927" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -1445,14 +1503,16 @@
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="3.81518" y="-4.84235"/>
-                  <o3 x="3.81518" y="-4.84235"/>
-                  <o4 x="-0.146738" y="-3.22823"/>
+                  <o2 x="4.32387" y="-5.488"/>
+                  <o3 x="4.32387" y="-5.488"/>
+                  <o4 x="-0.166303" y="-3.65866"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -1504,6 +1564,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1559,6 +1621,8 @@
                 </location>
               </prev>
             </Spanner>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1601,6 +1665,8 @@
             </Harmony>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1642,6 +1708,8 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1689,26 +1757,30 @@
           </voice>
         </Measure>
       <Measure>
-        <vspacerUp>22</vspacerUp>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>60</velocity>
             <dynType>0</dynType>
-            <offset x="0.158281" y="4"/>
+            <offset x="0.179385" y="4.53333"/>
             </Dynamic>
           <Harmony>
             <name>I.V7(9)</name>
-            <offset x="0" y="-7"/>
+            <offset x="0" y="-7.93333"/>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="1.46738" y="-2.34781"/>
-                  <o3 x="1.46738" y="-2.34781"/>
-                  <o4 x="0" y="-2.64128"/>
+                  <o2 x="1.66303" y="-2.66085"/>
+                  <o3 x="1.66303" y="-2.66085"/>
+                  <o4 x="0" y="-2.99345"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -1733,7 +1805,7 @@
             </Chord>
           <Harmony>
             <name>V65(b96)</name>
-            <offset x="0" y="-7"/>
+            <offset x="0" y="-7.93333"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -1748,7 +1820,7 @@
             </Segment>
           <Harmony>
             <name>V65</name>
-            <offset x="0" y="-7"/>
+            <offset x="0" y="-7.93333"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -1759,6 +1831,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1782,6 +1856,8 @@
           <location>
             <fractions>1/8</fractions>
             </location>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1808,6 +1884,8 @@
           <Harmony>
             <name>I</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1823,7 +1901,6 @@
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <offset x="-3.03719" y="0"/>
                 </Accidental>
               <pitch>68</pitch>
               <tpc>22</tpc>
@@ -1850,6 +1927,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1869,6 +1948,8 @@
           <location>
             <fractions>1/8</fractions>
             </location>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1892,12 +1973,17 @@
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>45</velocity>
-            <offset x="0.658281" y="4.5"/>
+            <offset x="0.746052" y="5.1"/>
             </Dynamic>
           <Harmony>
             <name>V7(9)</name>
-            <offset x="0" y="-8"/>
+            <offset x="0" y="-9.06667"/>
             </Harmony>
+          <StaffText>
+            <text>ritardando</text>
+            </StaffText>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -1923,7 +2009,7 @@
             </Chord>
           <Harmony>
             <name>V65(b96)</name>
-            <offset x="0" y="-7.76211"/>
+            <offset x="0" y="-8.79706"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -1938,7 +2024,7 @@
             </Segment>
           <Harmony>
             <name>V65</name>
-            <offset x="0" y="-7.76211"/>
+            <offset x="0" y="-8.79706"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -1949,6 +2035,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1972,6 +2060,8 @@
           <location>
             <fractions>1/8</fractions>
             </location>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1997,8 +2087,10 @@
         <voice>
           <Harmony>
             <name>I</name>
-            <offset x="0" y="-8"/>
+            <offset x="0" y="-9.06667"/>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2008,14 +2100,13 @@
             </Chord>
           <Harmony>
             <name>viio43/V</name>
-            <offset x="0" y="-8"/>
+            <offset x="0" y="-9.06667"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <offset x="-3.03719" y="0"/>
                 </Accidental>
               <pitch>68</pitch>
               <tpc>22</tpc>
@@ -2031,7 +2122,7 @@
             </Chord>
           <Harmony>
             <name>V</name>
-            <offset x="0" y="-8"/>
+            <offset x="0" y="-9.06667"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -2055,6 +2146,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -2074,13 +2167,15 @@
           <location>
             <fractions>1/8</fractions>
             </location>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
               <Spanner type="Tie">
                 <Tie>
                   <TieSegment no="0">
-                    <o1 x="0.668051" y="0"/>
+                    <o1 x="0.757124" y="0"/>
                     </TieSegment>
                   <up>up</up>
                   </Tie>
@@ -2122,12 +2217,11 @@
         <voice>
           <Harmony>
             <name>V7\\</name>
-            <offset x="0" y="-8"/>
+            <offset x="0" y="-9.06667"/>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
             <timeStretch>5</timeStretch>
-            <offset x="0.658281" y="-5"/>
             </Fermata>
           <Chord>
             <durationType>quarter</durationType>
@@ -2144,7 +2238,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.26667"/>
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
@@ -2196,14 +2290,10 @@
             </Chord>
           </voice>
         </Measure>
-      <VBox>
-        <height>10</height>
-        <bottomGap>0</bottomGap>
-        </VBox>
       </Staff>
     <Staff id="2">
       <Measure>
-        <vspacerUp>2</vspacerUp>
+        <vspacerUp>2.26667</vspacerUp>
         <voice>
           <KeySig>
             <accidental>2</accidental>
@@ -2212,13 +2302,8 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            <offset x="0.658281" y="2.09241"/>
-            </Dynamic>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2244,6 +2329,8 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2279,7 +2366,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -2290,13 +2377,15 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2305,7 +2394,6 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="1.34894" y="0"/>
             <staffMove>-1</staffMove>
             <durationType>16th</durationType>
             <Note>
@@ -2329,6 +2417,8 @@
           <Segment>
             <leadingSpace>2</leadingSpace>
             </Segment>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2373,7 +2463,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -2384,13 +2474,15 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2416,6 +2508,8 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2451,7 +2545,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -2462,13 +2556,15 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2477,7 +2573,6 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="1.24518" y="0"/>
             <staffMove>-1</staffMove>
             <durationType>16th</durationType>
             <Note>
@@ -2501,6 +2596,8 @@
           <Segment>
             <leadingSpace>2</leadingSpace>
             </Segment>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2548,7 +2645,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -2559,13 +2656,13 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
-        <vspacerUp>1.5</vspacerUp>
+        <vspacerUp>1.7</vspacerUp>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -2641,7 +2738,7 @@
           </voice>
         </Measure>
       <Measure>
-        <vspacerUp>1.5</vspacerUp>
+        <vspacerUp>1.7</vspacerUp>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -2662,6 +2759,8 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -2697,6 +2796,8 @@
           <location>
             <fractions>1/4</fractions>
             </location>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2722,25 +2823,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -2760,20 +2842,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>40</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            </Dynamic>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -2793,6 +2861,8 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -2828,6 +2898,8 @@
           <location>
             <fractions>1/4</fractions>
             </location>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2853,25 +2925,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -2890,27 +2943,13 @@
           </voice>
         </Measure>
       <Measure>
-        <vspacerUp>3</vspacerUp>
         <voice>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            <offset x="0.658281" y="2.09241"/>
-            </Dynamic>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>57</pitch>
+              <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -2932,6 +2971,8 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2962,12 +3003,12 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>57</pitch>
+              <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -2978,13 +3019,15 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2993,7 +3036,6 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="1.34894" y="0"/>
             <staffMove>-1</staffMove>
             <durationType>16th</durationType>
             <Note>
@@ -3017,6 +3059,8 @@
           <Segment>
             <leadingSpace>2</leadingSpace>
             </Segment>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3061,7 +3105,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -3072,13 +3116,15 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3104,6 +3150,8 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3139,7 +3187,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -3150,13 +3198,15 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3165,7 +3215,6 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="1.24518" y="0"/>
             <staffMove>-1</staffMove>
             <durationType>16th</durationType>
             <Note>
@@ -3189,6 +3238,8 @@
           <Segment>
             <leadingSpace>2</leadingSpace>
             </Segment>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3243,7 +3294,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -3254,31 +3305,13 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-2.26667"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -3307,15 +3340,8 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.26667"/>
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
@@ -3326,7 +3352,6 @@
           <Fermata>
             <subtype>fermataBelow</subtype>
             <timeStretch>5</timeStretch>
-            <offset x="0.658281" y="6.75"/>
             </Fermata>
           <Chord>
             <durationType>quarter</durationType>

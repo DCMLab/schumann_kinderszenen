@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.0.5</programVersion>
+  <programRevision>58dd23d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -37,11 +37,7 @@
       <pageWidth>8.5</pageWidth>
       <pageHeight>11</pageHeight>
       <pagePrintableWidth>7.7126</pagePrintableWidth>
-      <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
-      <pageOddLeftMargin>0.393701</pageOddLeftMargin>
-      <pageEvenTopMargin>0.393701</pageEvenTopMargin>
       <pageEvenBottomMargin>0.393701</pageEvenBottomMargin>
-      <pageOddTopMargin>0.393701</pageOddTopMargin>
       <pageOddBottomMargin>0.393701</pageOddBottomMargin>
       <staffLowerBorder>5</staffLowerBorder>
       <lyricsDashForce>0</lyricsDashForce>
@@ -53,7 +49,6 @@
       <clefKeyRightMargin>1.75</clefKeyRightMargin>
       <barNoteDistance>1.2</barNoteDistance>
       <articulationMag>0.8</articulationMag>
-      <harmonyFretDist>0.5</harmonyFretDist>
       <chordSymbolPosBelow x="0" y="-5"/>
       <keySigNaturals>1</keySigNaturals>
       <defaultFramePadding>0.5</defaultFramePadding>
@@ -106,7 +101,7 @@
       <frameAlign>center,center</frameAlign>
       <frameFramePadding>0</frameFramePadding>
       <frameFrameWidth>0</frameFrameWidth>
-      <Spatium>1.7</Spatium>
+      <Spatium>1.5</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -186,45 +181,19 @@
     <Staff id="1">
       <VBox>
         <height>17.3058</height>
-        <bottomGap>1</bottomGap>
-        <Text>
-          <style>Title</style>
-          <text><font face="Garamond"></font>Kinderszenen
-</text>
-          </Text>
-        <Text>
-          <style>Subtitle</style>
-          <text><font size="15"></font>(Childhood Scenes)
-<font size="14"></font><font face="Garamond"></font>Op. 15
-
-</text>
-          </Text>
+        <bottomGap>1.13333</bottomGap>
         <Text>
           <style>Composer</style>
+          <offset x="-0.264583" y="-3.175"/>
           <text><font size="11"></font><font face="Garamond"></font>Robert Schumann
 (1810-1856<font face="FreeSerif"></font>)
 </text>
           </Text>
-        </VBox>
-      <VBox>
-        <height>124.295</height>
-        <topGap>0</topGap>
-        <bottomGap>0</bottomGap>
-        <Image>
-          <offset x="1" y="0"/>
-          <path>../OneDrive/IMSLP03060.jpg</path>
-          <linkPath>../OneDrive/IMSLP03060.jpg</linkPath>
-          <size w="113.096" h="134.056"/>
-          </Image>
-        </VBox>
-      <VBox>
-        <height>10.2913</height>
-        <topGap>0</topGap>
-        <bottomGap>1.03765</bottomGap>
         <Text>
-          <style>Frame</style>
-          <text><b><font size="14"></font><font face="Garamond"></font>Von fremden Ländern und Menschen
-</b><font size="13"></font>(Of Foreign Lands and Peoples)</text>
+          <style>Title</style>
+          <offset x="0.79375" y="6.35"/>
+          <text>Von fremden Ländern und Menschen
+(Of Foreign Lands and Peoples)</text>
           </Text>
         </VBox>
       <HBox>
@@ -247,7 +216,7 @@
             <subtype>p</subtype>
             <velocity>70</velocity>
             <dynType>0</dynType>
-            <offset x="-0.841719" y="3"/>
+            <offset x="-0.953948" y="3.4"/>
             </Dynamic>
           <Harmony>
             <name>.G.I</name>
@@ -257,9 +226,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="0.256672" y="-1.02669"/>
-                  <o3 x="0.256672" y="-1.02669"/>
-                  <o4 x="-1.13698e-14" y="-0.898353"/>
+                  <o2 x="0.290895" y="-1.16358"/>
+                  <o3 x="0.290895" y="-1.16358"/>
+                  <o4 x="-1.28858e-14" y="-1.01813"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -343,9 +312,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="0.385009" y="-1.4117"/>
-                  <o3 x="0.385009" y="-1.4117"/>
-                  <o4 x="-1.13502e-14" y="-0.513345"/>
+                  <o2 x="0.436344" y="-1.59993"/>
+                  <o3 x="0.436344" y="-1.59993"/>
+                  <o4 x="-1.28636e-14" y="-0.581791"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -375,10 +344,15 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>V</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -425,11 +399,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.505775" y="-2.15901"/>
-                  <o3 x="0.505775" y="-2.15901"/>
-                  <offset x="-0.13164" y="1.3164"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -461,6 +430,8 @@
           <Harmony>
             <name>IV</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -512,7 +483,7 @@
               <veloChange>20</veloChange>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="1.5"/>
+                <offset x="0" y="1.7"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -569,7 +540,7 @@
             <subtype>p</subtype>
             <velocity>60</velocity>
             <dynType>0</dynType>
-            <offset x="0.158281" y="3"/>
+            <offset x="0.179385" y="3.4"/>
             </Dynamic>
           <Harmony>
             <name>vi</name>
@@ -627,89 +598,27 @@
             <name>V</name>
             </Harmony>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>66</pitch>
               <tpc>20</tpc>
               </Note>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/16</fractions>
-                    <notes>-1</notes>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
           <Harmony>
             <name>V2</name>
-            <offset x="-0.658202" y="-5"/>
+            <offset x="-0.745962" y="-5.66667"/>
             </Harmony>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/16</fractions>
-                    <notes>1</notes>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/16</fractions>
+            </location>
           <Harmony>
             <name>I6</name>
             </Harmony>
@@ -785,67 +694,29 @@
             <name>V/vi</name>
             </Harmony>
           <Chord>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>3/16</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>63</pitch>
               <tpc>23</tpc>
               </Note>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>3/16</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>66</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
           <Harmony>
             <name>V2/vi</name>
             </Harmony>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-3/16</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-3/16</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/16</fractions>
+            </location>
           <Harmony>
             <name>I6</name>
             </Harmony>
@@ -875,10 +746,13 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <StaffText>
-            <offset x="-0.11" y="-4"/>
-            <text>rit  -  tar       -   dan   -   do</text>
+            <offset x="-0.723116" y="-4.45853"/>
+            <text>ritardando</text>
             </StaffText>
           <Harmony>
             <name>IV</name>
@@ -887,13 +761,10 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1.5803"/>
-                  <o2 x="0.113469" y="-1.35486"/>
-                  <o3 x="-0.677754" y="-2.14608"/>
-                  </SlurSegment>
                 <SlurSegment no="1">
-                  <offset x="-0.394921" y="1.44804"/>
+                  <o1 x="0" y="-1.79101"/>
+                  <o2 x="0.128598" y="-1.53551"/>
+                  <o3 x="-0.768121" y="-2.43222"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -919,12 +790,12 @@
               <dynType>0</dynType>
               <Segment>
                 <subtype>1</subtype>
-                <offset x="0" y="2.09528"/>
+                <offset x="0" y="3.5"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
-                <offset x="0" y="2.09528"/>
+                <offset x="0" y="2.37465"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -950,6 +821,8 @@
           <Harmony>
             <name>I6</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -969,21 +842,16 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Dynamic>
-            <subtype>mf</subtype>
-            <velocity>80</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            </Dynamic>
           <Harmony>
             <name>I\\</name>
-            <offset x="0.2" y="-5"/>
+            <offset x="0.226667" y="-5.66667"/>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
             <timeStretch>1.4</timeStretch>
-            <offset x="0.658281" y="-2.25"/>
             </Fermata>
+          <Beam>
+            </Beam>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -998,7 +866,7 @@
             </location>
           <Harmony>
             <name>V43(4)</name>
-            <offset x="-1" y="-5"/>
+            <offset x="-1.13333" y="-5.66667"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -1038,9 +906,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="0.256672" y="-1.02669"/>
-                  <o3 x="0.256672" y="-1.02669"/>
-                  <o4 x="-1.13698e-14" y="-0.898353"/>
+                  <o2 x="0.290895" y="-1.16358"/>
+                  <o3 x="0.290895" y="-1.16358"/>
+                  <o4 x="-1.28858e-14" y="-1.01813"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -1115,6 +983,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>I</name>
@@ -1124,9 +995,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="0.385009" y="-1.4117"/>
-                  <o3 x="0.385009" y="-1.4117"/>
-                  <o4 x="-1.13502e-14" y="-0.513345"/>
+                  <o2 x="0.436344" y="-1.59993"/>
+                  <o3 x="0.436344" y="-1.59993"/>
+                  <o4 x="-1.28636e-14" y="-0.581791"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -1156,13 +1027,12 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Harmony>
             <name>V</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -1209,10 +1079,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.505775" y="-2.15901"/>
-                  <o3 x="0.505775" y="-2.15901"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1244,6 +1110,8 @@
           <Harmony>
             <name>IV</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -1267,16 +1135,11 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>20</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
-                <measures>3</measures>
-                <fractions>-1/4</fractions>
+                <measures>2</measures>
+                <fractions>1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -1339,42 +1202,22 @@
             </Chord>
           <BarLine>
             <subtype>end-repeat</subtype>
-            <offset x="3.5" y="0"/>
+            <offset x="3.96667" y="0"/>
             </BarLine>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <irregular>1</irregular>
-        <stretch>0</stretch>
-        <slashStyle>1</slashStyle>
-        <stemless>1</stemless>
-        <LayoutBreak>
-          <subtype>section</subtype>
-          <pause>2</pause>
-          </LayoutBreak>
-        <voice>
           <Spanner type="HairPin">
             <prev>
               <location>
-                <measures>-3</measures>
-                <fractions>1/4</fractions>
+                <measures>-2</measures>
+                <fractions>-1/4</fractions>
                 </location>
               </prev>
             </Spanner>
-          <Rest>
-            <offset x="-1" y="0"/>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            </BarLine>
           </voice>
         </Measure>
       </Staff>
     <Staff id="2">
       <Measure>
-        <vspacerUp>1.5</vspacerUp>
+        <vspacerUp>1.7</vspacerUp>
         <voice>
           <KeySig>
             <accidental>1</accidental>
@@ -1383,31 +1226,9 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>45</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            </Dynamic>
-          <Spanner type="Pedal">
-            <Pedal>
-              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
-              <lineVisible>0</lineVisible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="2.43839" y="0"/>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
-            <offset x="-0.5" y="2"/>
+            <offset x="-0.566667" y="2.26667"/>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1415,11 +1236,16 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Symbol>
+                <name>keyboardPedalPed</name>
+                <offset x="-0.561949" y="8.7102"/>
+                </Symbol>
               <pitch>59</pitch>
               <tpc>19</tpc>
               </Note>
@@ -1432,7 +1258,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -1440,34 +1265,9 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
-            <offset x="-0.5" y="2"/>
+            <offset x="-0.566667" y="2.26667"/>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1475,8 +1275,9 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1495,7 +1296,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -1513,7 +1313,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -1527,41 +1327,16 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
-            <offset x="-0.5" y="2"/>
+            <offset x="-0.566667" y="2.26667"/>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1569,8 +1344,9 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1586,7 +1362,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>66</pitch>
@@ -1594,34 +1369,9 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
-            <offset x="-0.5" y="2.5"/>
+            <offset x="-0.566667" y="2.83333"/>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1629,11 +1379,16 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -1646,7 +1401,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>69</pitch>
@@ -1664,7 +1418,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -1675,46 +1429,22 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1730,7 +1460,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -1738,39 +1467,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1789,7 +1494,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -1807,7 +1511,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -1821,46 +1525,22 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1876,7 +1556,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>66</pitch>
@@ -1884,42 +1563,22 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -1932,7 +1591,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>69</pitch>
@@ -1950,7 +1608,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -1961,47 +1619,23 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
-        <vspacerUp>1.5</vspacerUp>
+        <vspacerUp>1.7</vspacerUp>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2017,7 +1651,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -2025,39 +1658,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2074,7 +1683,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -2092,7 +1700,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -2118,7 +1726,6 @@
             <fractions>1/4</fractions>
             </location>
           <Chord>
-            <offset x="0.518824" y="0"/>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -2127,46 +1734,22 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="3"/>
+            <offset x="0" y="3.4"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2182,7 +1765,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -2190,39 +1772,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2238,7 +1796,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -2271,13 +1828,12 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         <voice>
           <Chord>
-            <offset x="0.518824" y="0"/>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -2286,46 +1842,22 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="3"/>
+            <offset x="0" y="3.4"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2341,7 +1873,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -2349,47 +1880,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>45</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            <placement>above</placement>
-            <offset x="-0.841719" y="-3"/>
-            </Dynamic>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2405,7 +1904,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>66</pitch>
@@ -2423,7 +1921,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -2434,46 +1932,22 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2489,7 +1963,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -2498,12 +1971,14 @@
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2520,7 +1995,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -2538,7 +2012,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -2549,7 +2023,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
@@ -2559,38 +2033,15 @@
           <BarLine>
             <subtype>start-repeat</subtype>
             </BarLine>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2607,7 +2058,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>64</pitch>
@@ -2615,39 +2065,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2664,7 +2090,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>64</pitch>
@@ -2702,39 +2127,15 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2751,7 +2152,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>62</pitch>
@@ -2759,39 +2159,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2808,7 +2184,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>62</pitch>
@@ -2818,8 +2193,9 @@
           <endTuplet/>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
-            <offset x="-1.66024" y="0"/>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -2853,39 +2229,15 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2902,7 +2254,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>60</pitch>
@@ -2910,39 +2261,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2959,7 +2286,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>60</pitch>
@@ -2997,39 +2323,15 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3046,7 +2348,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>59</pitch>
@@ -3054,39 +2355,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3103,7 +2380,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>59</pitch>
@@ -3113,8 +2389,9 @@
           <endTuplet/>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
-            <offset x="-1.66024" y="0"/>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -3148,39 +2425,15 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3197,7 +2450,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>60</pitch>
@@ -3205,39 +2457,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3253,7 +2481,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>62</pitch>
@@ -3291,39 +2518,15 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3340,7 +2543,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>62</pitch>
@@ -3348,39 +2550,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3398,11 +2576,11 @@
               </Note>
             </Chord>
           <Fermata>
-            <subtype>fermataAbove</subtype>
+            <subtype>fermataBelow</subtype>
             <timeStretch>10</timeStretch>
+            <placement>below</placement>
             </Fermata>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>62</pitch>
@@ -3412,13 +2590,14 @@
           <endTuplet/>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
-            <offset x="-1.66024" y="0"/>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
               <NoteDot>
-                <offset x="2.16656" y="0.5"/>
+                <offset x="2.45543" y="0.566667"/>
                 </NoteDot>
               <pitch>47</pitch>
               <tpc>19</tpc>
@@ -3466,11 +2645,11 @@
             <fractions>1/4</fractions>
             </location>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Rest>
             <visible>0</visible>
@@ -3493,35 +2672,11 @@
             <velocity>45</velocity>
             <dynType>0</dynType>
             <placement>above</placement>
-            <offset x="-0.341719" y="-4"/>
+            <offset x="-0.387282" y="-4.53333"/>
             </Dynamic>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
-              <lineVisible>0</lineVisible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="2.43839" y="0"/>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
-            <offset x="-0.5" y="2"/>
+            <offset x="-0.566667" y="2.26667"/>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -3529,8 +2684,9 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3546,7 +2702,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -3554,34 +2709,9 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
-            <offset x="-0.5" y="2"/>
+            <offset x="-0.566667" y="2.26667"/>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -3589,8 +2719,9 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3609,7 +2740,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -3627,7 +2757,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -3641,41 +2771,16 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
-            <offset x="-0.5" y="2"/>
+            <offset x="-0.566667" y="2.26667"/>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -3683,8 +2788,9 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3700,7 +2806,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>66</pitch>
@@ -3708,34 +2813,9 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
-            <offset x="-0.5" y="2.2"/>
+            <offset x="-0.566667" y="2.49333"/>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -3743,11 +2823,16 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -3760,7 +2845,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>69</pitch>
@@ -3778,7 +2862,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -3789,46 +2873,22 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3844,7 +2904,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -3852,39 +2911,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3903,7 +2938,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -3921,7 +2955,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -3935,46 +2969,22 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3990,7 +3000,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>66</pitch>
@@ -3998,42 +3007,22 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -4046,7 +3035,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>69</pitch>
@@ -4064,7 +3052,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -4075,47 +3063,23 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
-        <vspacerUp>1.5</vspacerUp>
+        <vspacerUp>1.7</vspacerUp>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4131,7 +3095,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -4139,39 +3102,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4188,7 +3127,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -4206,7 +3144,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -4232,7 +3170,6 @@
             <fractions>1/4</fractions>
             </location>
           <Chord>
-            <offset x="0.518824" y="0"/>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -4241,46 +3178,22 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="3"/>
+            <offset x="0" y="3.4"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4296,7 +3209,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -4304,47 +3216,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            <placement>above</placement>
-            <offset x="-0.841719" y="-3"/>
-            </Dynamic>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4360,7 +3240,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -4393,13 +3272,12 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         <voice>
           <Chord>
-            <offset x="0.518824" y="0"/>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -4408,46 +3286,22 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="3"/>
+            <offset x="0" y="3.4"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4463,7 +3317,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -4471,39 +3324,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4519,7 +3348,6 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>66</pitch>
@@ -4537,7 +3365,7 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -4548,58 +3376,31 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.13333"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <visible>0</visible>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <play>0</play>
               </Note>
             </Chord>
           <Chord>
-            <offset x="0.5" y="0"/>
             <durationType>eighth</durationType>
             <Note>
               <pitch>59</pitch>
@@ -4608,8 +3409,6 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="2" y="0"/>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -4618,14 +3417,15 @@
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
-            <offset x="2" y="0"/>
             <durationType>eighth</durationType>
             <Note>
               <Spanner type="Tie">
@@ -4641,7 +3441,6 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="2" y="0"/>
             <durationType>eighth</durationType>
             <Note>
               <pitch>59</pitch>
@@ -4649,8 +3448,6 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="3.5" y="0"/>
-            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -4660,7 +3457,7 @@
           <endTuplet/>
           <BarLine>
             <subtype>end-repeat</subtype>
-            <offset x="3.5" y="0"/>
+            <offset x="3.96667" y="0"/>
             </BarLine>
           </voice>
         <voice>
@@ -4678,18 +3475,17 @@
           </voice>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Rest>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
-            <offset x="0.5" y="0"/>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -4709,28 +3505,6 @@
               </Note>
             </Chord>
           <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <slashStyle>1</slashStyle>
-        <stemless>1</stemless>
-        <voice>
-          <Rest>
-            <offset x="-1" y="0"/>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            </BarLine>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           </voice>
         </Measure>
       </Staff>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.0.5</programVersion>
+  <programRevision>58dd23d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -53,7 +53,6 @@
       <clefKeyRightMargin>1.75</clefKeyRightMargin>
       <barNoteDistance>1.2</barNoteDistance>
       <articulationMag>0.8</articulationMag>
-      <harmonyFretDist>0.5</harmonyFretDist>
       <chordSymbolPosBelow x="0" y="-5"/>
       <keySigNaturals>1</keySigNaturals>
       <defaultFramePadding>0.5</defaultFramePadding>
@@ -550,6 +549,9 @@
         </Measure>
       <Measure>
         <stretch>1.3</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>V</name>
@@ -758,13 +760,11 @@
               </next>
             </Spanner>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>up</direction>
               <subtype>articMarcatoAbove</subtype>
               <anchor>3</anchor>
-              <offset x="0.658281" y="-4"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -787,13 +787,11 @@
             <name>V</name>
             </Harmony>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>up</direction>
               <subtype>articMarcatoAbove</subtype>
               <anchor>3</anchor>
-              <offset x="0.658281" y="-4.5"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -813,7 +811,7 @@
             <name>ii64</name>
             </Harmony>
           <Chord>
-            <staffMove>1</staffMove>
+            <BeamMode>begin</BeamMode>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -821,7 +819,7 @@
               <next>
                 <location>
                   <measures>1</measures>
-                  <fractions>-1/2</fractions>
+                  <fractions>-5/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -849,12 +847,7 @@
           <location>
             <fractions>1/2</fractions>
             </location>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
           <Chord>
-            <offset x="0.726353" y="0"/>
-            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>54</pitch>
@@ -862,7 +855,7 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>1</staffMove>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>52</pitch>
@@ -877,21 +870,10 @@
           <Harmony>
             <name>I</name>
             </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <dots>1</dots>
-            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
@@ -909,8 +891,15 @@
             <name>#viio/vi</name>
             </Harmony>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>5/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -936,13 +925,11 @@
               </prev>
             </Spanner>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>up</direction>
               <subtype>articMarcatoAbove</subtype>
               <anchor>3</anchor>
-              <offset x="0.658281" y="-3"/>
               </Articulation>
             <Note>
               <pitch>49</pitch>
@@ -961,13 +948,11 @@
             <name>ii6</name>
             </Harmony>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>up</direction>
               <subtype>articMarcatoAbove</subtype>
               <anchor>3</anchor>
-              <offset x="0.658281" y="-3.5"/>
               </Articulation>
             <Note>
               <pitch>50</pitch>
@@ -991,13 +976,11 @@
             <name>V</name>
             </Harmony>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>up</direction>
               <subtype>articMarcatoAbove</subtype>
               <anchor>3</anchor>
-              <offset x="0.658281" y="-3"/>
               </Articulation>
             <Note>
               <pitch>47</pitch>
@@ -1016,13 +999,11 @@
             <name>I\\</name>
             </Harmony>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>up</direction>
               <subtype>articMarcatoAbove</subtype>
               <anchor>3</anchor>
-              <offset x="0.658281" y="-3.5"/>
               </Articulation>
             <Note>
               <pitch>49</pitch>
@@ -1076,6 +1057,9 @@
         </Measure>
       <Measure>
         <stretch>0.9</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>IV.I</name>
@@ -1131,7 +1115,6 @@
         </Measure>
       <Measure>
         <stretch>0.7</stretch>
-        <vspacerUp>15.5</vspacerUp>
         <voice>
           <Harmony>
             <name>ii2</name>
@@ -1195,9 +1178,6 @@
         </Measure>
       <Measure>
         <stretch>0.8</stretch>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Harmony>
             <name>V7</name>
@@ -1295,6 +1275,10 @@
             <name>V7/IV</name>
             <offset x="-0.13164" y="-2.63047"/>
             </Harmony>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>0</velocity>
+            </Dynamic>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -1336,11 +1320,6 @@
             <HairPin>
               <subtype>0</subtype>
               <dynType>0</dynType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1429,6 +1408,9 @@
         </Measure>
       <Measure>
         <stretch>0.8</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>IV64</name>
@@ -1522,9 +1504,6 @@
         </Measure>
       <Measure>
         <stretch>0.8</stretch>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Harmony>
             <name>ii65</name>
@@ -1640,7 +1619,6 @@
         </Measure>
       <Measure len="2/4">
         <endRepeat>2</endRepeat>
-        <irregular>1</irregular>
         <stretch>0.9</stretch>
         <voice>
           <Harmony>
@@ -1676,7 +1654,6 @@
       <Measure len="1/4">
         <irregular>1</irregular>
         <stretch>1.5</stretch>
-        <vspacerUp>15.5</vspacerUp>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -1922,6 +1899,9 @@
         </Measure>
       <Measure>
         <stretch>1.5</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>I</name>
@@ -2066,7 +2046,7 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 </Slur>
@@ -2090,12 +2070,12 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
           <Harmony>
             <name>I6</name>
             </Harmony>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -2205,11 +2185,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>20</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2219,13 +2194,11 @@
               </next>
             </Spanner>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>up</direction>
               <subtype>articMarcatoAbove</subtype>
               <anchor>3</anchor>
-              <offset x="0.658281" y="-4"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -2248,13 +2221,11 @@
             <name>V</name>
             </Harmony>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>up</direction>
               <subtype>articMarcatoAbove</subtype>
               <anchor>3</anchor>
-              <offset x="0.658281" y="-4.5"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -2274,7 +2245,6 @@
             <name>ii64</name>
             </Harmony>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -2310,12 +2280,7 @@
           <location>
             <fractions>1/2</fractions>
             </location>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
           <Chord>
-            <offset x="0.726353" y="0"/>
-            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>54</pitch>
@@ -2323,7 +2288,7 @@
               </Note>
             </Chord>
           <Chord>
-            <staffMove>1</staffMove>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>52</pitch>
@@ -2337,12 +2302,9 @@
           <Harmony>
             <name>I</name>
             </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <dots>1</dots>
-            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2369,7 +2331,6 @@
             <name>#viio/vi</name>
             </Harmony>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>16th</durationType>
             <Note>
               <pitch>50</pitch>
@@ -2384,13 +2345,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Tempo>
-            <tempo>1.51667</tempo>
-            <followText>1</followText>
-            <visible>0</visible>
-            <offset x="-0.807733" y="-1.76394"/>
-            <text><b></b>91</text>
-            </Tempo>
           <Harmony>
             <name>vi</name>
             </Harmony>
@@ -2403,13 +2357,11 @@
               </prev>
             </Spanner>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>up</direction>
               <subtype>articMarcatoAbove</subtype>
               <anchor>3</anchor>
-              <offset x="0.658281" y="-3"/>
               </Articulation>
             <Note>
               <pitch>49</pitch>
@@ -2424,24 +2376,15 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Tempo>
-            <tempo>1.45</tempo>
-            <followText>1</followText>
-            <visible>0</visible>
-            <offset x="-0.807733" y="-1.76394"/>
-            <text>87</text>
-            </Tempo>
           <Harmony>
             <name>ii6</name>
             </Harmony>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>up</direction>
               <subtype>articMarcatoAbove</subtype>
               <anchor>3</anchor>
-              <offset x="0.658281" y="-3.5"/>
               </Articulation>
             <Note>
               <pitch>50</pitch>
@@ -2463,24 +2406,15 @@
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
-          <Tempo>
-            <tempo>1.36667</tempo>
-            <followText>1</followText>
-            <visible>0</visible>
-            <offset x="-0.807733" y="-1.52874"/>
-            <text><b></b>82</text>
-            </Tempo>
           <Harmony>
             <name>V</name>
             </Harmony>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>up</direction>
               <subtype>articMarcatoAbove</subtype>
               <anchor>3</anchor>
-              <offset x="0.658281" y="-3"/>
               </Articulation>
             <Note>
               <pitch>47</pitch>
@@ -2499,13 +2433,11 @@
             <name>I\\</name>
             </Harmony>
           <Chord>
-            <staffMove>1</staffMove>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>up</direction>
               <subtype>articMarcatoAbove</subtype>
               <anchor>3</anchor>
-              <offset x="0.658281" y="-3.5"/>
               </Articulation>
             <Note>
               <pitch>49</pitch>
@@ -2536,34 +2468,13 @@
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>72</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            </Dynamic>
-          <Spanner type="Pedal">
-            <Pedal>
-              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
-              <lineVisible>0</lineVisible>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="2.14498" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Symbol>
+                <name>keyboardPedalPed</name>
+                <offset x="-0.561949" y="5.95117"/>
+                </Symbol>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -2587,31 +2498,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -2641,31 +2527,6 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -2680,32 +2541,6 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -2724,32 +2559,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -2772,31 +2581,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -2811,32 +2595,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2863,32 +2621,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -2918,31 +2650,6 @@
               <tpc>25</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -2957,32 +2664,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -3001,32 +2682,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -3049,31 +2704,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -3088,38 +2718,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Dynamic>
-            <subtype>mf</subtype>
-            <velocity>66</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            </Dynamic>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3147,32 +2745,6 @@
       <Measure>
         <vspacerUp>1.5</vspacerUp>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -3202,31 +2774,6 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -3242,32 +2789,6 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -3286,39 +2807,12 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>down</direction>
               <subtype>articMarcatoBelow</subtype>
               <anchor>4</anchor>
-              <offset x="0.658281" y="8.5"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -3338,38 +2832,12 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>down</direction>
               <subtype>articMarcatoBelow</subtype>
               <anchor>4</anchor>
-              <offset x="0.658281" y="10.5"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -3381,32 +2849,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -3436,32 +2878,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -3496,38 +2912,12 @@
               <tpc>25</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>down</direction>
               <subtype>articMarcatoBelow</subtype>
               <anchor>4</anchor>
-              <offset x="0.658281" y="10"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -3539,39 +2929,12 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>down</direction>
               <subtype>articMarcatoBelow</subtype>
               <anchor>4</anchor>
-              <offset x="0.658281" y="11"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -3587,39 +2950,12 @@
         </Measure>
       <Measure len="2/4">
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>down</direction>
               <subtype>articMarcatoBelow</subtype>
               <anchor>4</anchor>
-              <offset x="0.658281" y="10.5"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -3639,39 +2975,12 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>down</direction>
               <subtype>articMarcatoBelow</subtype>
               <anchor>4</anchor>
-              <offset x="0.658281" y="9"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -3687,38 +2996,6 @@
         </Measure>
       <Measure len="1/4">
         <voice>
-          <Dynamic>
-            <subtype>ff</subtype>
-            <velocity>100</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            </Dynamic>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3741,31 +3018,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -3794,31 +3046,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -3848,32 +3075,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -3889,32 +3090,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -3943,31 +3118,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -3997,32 +3147,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4038,32 +3162,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -4092,31 +3190,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -4140,32 +3213,6 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4181,32 +3228,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -4235,31 +3256,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -4289,32 +3285,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4330,32 +3300,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4384,31 +3328,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -4438,32 +3357,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -4491,32 +3384,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -4531,31 +3398,6 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -4570,32 +3412,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -4614,32 +3430,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -4672,31 +3462,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -4712,32 +3477,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -4756,32 +3495,6 @@
         </Measure>
       <Measure len="2/4">
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -4796,13 +3509,6 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -4810,49 +3516,6 @@
         </Measure>
       <Measure len="1/4">
         <voice>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>72</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            </Dynamic>
-          <Spanner type="Pedal">
-            <Pedal>
-              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
-              <lineVisible>0</lineVisible>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="2.14498" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4879,38 +3542,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -4940,31 +3571,6 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -4979,32 +3585,6 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -5023,32 +3603,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -5071,31 +3625,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -5110,32 +3639,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5162,32 +3665,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -5217,31 +3694,6 @@
               <tpc>25</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -5256,32 +3708,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -5300,32 +3726,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -5348,31 +3748,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -5387,38 +3762,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Dynamic>
-            <subtype>mf</subtype>
-            <velocity>66</velocity>
-            <dynType>0</dynType>
-            <visible>0</visible>
-            </Dynamic>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5445,34 +3788,7 @@
         </Measure>
       <Measure>
         <vspacerUp>1.5</vspacerUp>
-        <vspacerDown>8.5</vspacerDown>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -5502,31 +3818,6 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -5542,32 +3833,6 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -5586,39 +3851,12 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>down</direction>
               <subtype>articMarcatoBelow</subtype>
               <anchor>4</anchor>
-              <offset x="0.658281" y="8.5"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -5638,38 +3876,12 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>down</direction>
               <subtype>articMarcatoBelow</subtype>
               <anchor>4</anchor>
-              <offset x="0.658281" y="10.5"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -5681,32 +3893,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -5736,32 +3922,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -5796,38 +3956,12 @@
               <tpc>25</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>down</direction>
               <subtype>articMarcatoBelow</subtype>
               <anchor>4</anchor>
-              <offset x="0.658281" y="10"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -5839,39 +3973,12 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>down</direction>
               <subtype>articMarcatoBelow</subtype>
               <anchor>4</anchor>
-              <offset x="0.658281" y="11"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -5887,39 +3994,12 @@
         </Measure>
       <Measure len="2/4">
         <voice>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <endHookType>1</endHookType>
-              <beginHookType>1</beginHookType>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </Pedal>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>down</direction>
               <subtype>articMarcatoBelow</subtype>
               <anchor>4</anchor>
-              <offset x="0.658281" y="10.5"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -5939,20 +4019,12 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
               <direction>down</direction>
               <subtype>articMarcatoBelow</subtype>
               <anchor>4</anchor>
-              <offset x="0.658281" y="9"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
