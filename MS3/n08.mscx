@@ -2187,6 +2187,7 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <stretch>1.1</stretch>
         <voice>
           <Harmony>
