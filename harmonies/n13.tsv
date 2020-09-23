@@ -20,9 +20,9 @@ mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	re
 11	11	1/2	vi6	G	I		vi6	vi		6				m	0	0	0, 4, 3		3	0
 12	12	0	#viio65/vi	G	I		#viio65/vi	#vii	o	65		vi		o7	0	0	5, 2, -1, 8		8	5
 12	12	23/24	#viio43/vi	G	I		#viio43/vi	#vii	o	43		vi		o7	0	0	2, -1, 8, 5		8	2
-12	12	23/8	#viio7/iii	G	I		#viio7/iii	#vii	o	7		iii		o7	0	0	9, 6, 3, 0		9	9
-12	12	31/8	#viio65/iii	G	I		#viio65/iii	#vii	o	65		iii		o7	0	0	6, 3, 0, 9		9	6
-12	12	4925812092436479/1125899906842624	viio65/V	G	I		viio65/V	vii	o	65		V		o7	0	0	3, 0, -3, 6		6	3
+12	12	47/16	#viio7/iii	G	I		#viio7/iii	#vii	o	7		iii		o7	0	0	9, 6, 3, 0		9	9
+12	12	63/16	#viio65/iii	G	I		#viio65/iii	#vii	o	65		iii		o7	0	0	6, 3, 0, 9		9	6
+12	12	2498090418307071/562949953421312	viio65/V	G	I		viio65/V	vii	o	65		V		o7	0	0	3, 0, -3, 6		6	3
 13	13	0	V2	G	I		V2	V		2				Mm7	0	0	-1, 1, 5, 2		1	-1
 13	13	1/2	I6	G	I		I6	I		6				M	0	0	4, 1, 0		0	4
 14	14	0	V43	G	I		V43	V		43				Mm7	0	0	2, -1, 1, 5		1	2

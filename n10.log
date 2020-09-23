@@ -1,4 +1,20 @@
 INFO     n10.ms3 -- Attempting to parse n10.mscx
-INFO     n10.ms3 -- MC 33 is longer 1/2 than its nominal duration 1/4.
+INFO     n10.ms3 -- MC 58 is longer 1/2 than its nominal duration 1/4.
 INFO     n10.ms3 -- Done parsing n10.mscx
 
+ERROR    n10 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "scripts/parallel_parse.py", line 93, in parse
+    expanded = expand_labels(chord_list, column='label', regex=regex, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 5 organ points started, 6 ended:
+     mc pedal  mc pedalend
+0     2     i   4        ]
+1    10     I  12        ]
+2    16     i  21        ]
+3    36     I  30        ]
+4    42     i  38        ]
+5  <NA>   NaN  47        ]

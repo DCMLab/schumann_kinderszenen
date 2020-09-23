@@ -7,7 +7,7 @@ mc	mn	keysig	timesig	act_dur	offset	repeats	volta	barline	numbering_offset	dont_
 6	6	2	2/4	1/2	0						7
 7	7	2	2/4	1/2	0						8
 8	8	2	2/4	1/2	0			double			9
-9	9	2	2/4	1/2	0	startRepeat		start-repeat			10
+9	9	2	2/4	1/2	0						10
 10	10	2	2/4	1/2	0						11
 11	11	2	2/4	1/2	0						12
 12	12	2	2/4	1/2	0						13
@@ -17,6 +17,17 @@ mc	mn	keysig	timesig	act_dur	offset	repeats	volta	barline	numbering_offset	dont_
 16	16	2	2/4	1/2	0						17
 17	17	2	2/4	1/2	0						18
 18	18	2	2/4	1/2	0						19
-19	19	2	2/4	1/2	0						20, 21
-20	20	2	2/4	1/2	0	endRepeat	1				9
-21	20	2	2/4	1/2	0	lastMeasure	2	end		1	-1
+19	19	2	2/4	1/2	0						20
+20	20	2	2/4	1/2	0			double			21
+21	21	2	2/4	1/2	0						22
+22	22	2	2/4	1/2	0						23
+23	23	2	2/4	1/2	0						24
+24	24	2	2/4	1/2	0						25
+25	25	2	2/4	1/2	0						26
+26	26	2	2/4	1/2	0						27
+27	27	2	2/4	1/2	0						28
+28	28	2	2/4	1/2	0						29
+29	29	2	2/4	1/2	0						30
+30	30	2	2/4	1/2	0						31
+31	31	2	2/4	1/2	0						32
+32	31	2	2/4	1/2	0	lastMeasure		end		1	-1
