@@ -1,20 +1,20 @@
-mc	mn	keysig	timesig	act_dur	offset	repeats	volta	barline	numbering_offset	dont_count	next
-1	0	2	2/4	1/8	3/8	firstMeasure				1	2
-2	1	2	2/4	1/2	0						3
-3	2	2	2/4	1/2	0	startRepeat					4
-4	3	2	2/4	1/2	0						5
-5	4	2	2/4	1/2	0						6
-6	5	2	2/4	1/2	0						7
-7	6	2	2/4	1/2	0						8
-8	7	2	2/4	1/2	0						9, 11
-9	8	2	2/4	1/2	0		1				10
-10	9	2	2/4	1/2	0	endRepeat	1				3
-11	9	2	2/4	1/2	0		2			1	12
-12	10	2	2/4	1/2	0						13
-13	11	2	2/4	1/2	0						14
-14	12	2	2/4	1/2	0						15
-15	13	2	2/4	1/2	0						16
-16	14	2	2/4	1/2	0						17
-17	15	2	2/4	1/2	0						18
-18	16	2	2/4	1/2	0						19
-19	17	2	2/4	1/2	0	lastMeasure		end			-1
+mc	mn	keysig	timesig	act_dur	mc_offset	volta	numbering_offset	dont_count	barline	breaks	repeats	markers	jump_bwd	jump_fwd	play_until	next
+1	0	2	2/4	1/8	3/8			1			firstMeasure					2
+2	1	2	2/4	1/2	0											3
+3	2	2	2/4	1/2	0						start					4
+4	3	2	2/4	1/2	0					line						5
+5	4	2	2/4	1/2	0											6
+6	5	2	2/4	1/2	0											7
+7	6	2	2/4	1/2	0											8
+8	7	2	2/4	1/2	0					line						9, 11
+9	8	2	2/4	1/2	0	1										10
+10	9	2	2/4	1/2	0	1					end					3
+11	9	2	2/4	1/2	0	2		1								12
+12	10	2	2/4	1/2	0					line						13
+13	11	2	2/4	1/2	0											14
+14	12	2	2/4	1/2	0											15
+15	13	2	2/4	1/2	0											16
+16	14	2	2/4	1/2	0					line						17
+17	15	2	2/4	1/2	0											18
+18	16	2	2/4	1/2	0											19
+19	17	2	2/4	1/2	0				end		lastMeasure		start		end	1
