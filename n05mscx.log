@@ -1,4 +1,0 @@
-2020-11-06 16:11:43 WARNING  n05:MeasureList -- bs4_measures.py (line 731) treat_group():
-	Volta group of MC 9 contains voltas with different lengths: [2, 1] Check for correct computation of MNs.
-2020-11-06 16:11:43 WARNING  n05:MeasureList -- bs4_measures.py (line 186) check_measure_numbers():
-	MC 11, the 1st measure of a 2nd volta, should have MN 8, not MN 9.
