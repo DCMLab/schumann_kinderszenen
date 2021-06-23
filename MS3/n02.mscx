@@ -4903,7 +4903,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2(9)</name>
-            <offset x="-1.40914" y="-6.53846"/>
+            <offset x="-1.40914" y="4.00209"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4933,7 +4933,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I6</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -5546,7 +5546,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>I</name>
             </Harmony>
           </voice>
         <voice>
