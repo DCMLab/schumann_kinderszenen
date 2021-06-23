@@ -3,7 +3,6 @@
 # Overview
 |file_name|measures|labels|standard|annotators|reviewers|
 |---------|-------:|-----:|--------|----------|---------|
-|metadata |      25|    45|2.1.1   |Tal Soker |AN       |
 |n01      |      22|    46|2.1.1   |Tal Soker |AN       |
 |n02      |      40|   134|2.1.1   |Tal Soker |AN       |
 |n03      |      31|    49|2.1.1   |Tal Soker |AN       |
