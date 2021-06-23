@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
@@ -179,20 +180,19 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.3</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>1</showMargins>
-    <metaTag name="annotators">Tal Soker</metaTag>
+    <metaTag name="annotators">Tal Soker (John Heilig)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1838</metaTag>
     <metaTag name="composed_start">1838</metaTag>
     <metaTag name="composer">Robert Schumann</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2017-03-11</metaTag>
-    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -200,7 +200,7 @@
     <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/67290 </metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">AN</metaTag>
+    <metaTag name="reviewers">AN (JHei)</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/22249306/scores/4778176</metaTag>
     <metaTag name="translator"></metaTag>
@@ -770,6 +770,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.3</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -999,6 +1002,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>0.286688</y1>
+              <y2>0.536688</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -1633,9 +1642,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="1">
-                  <o4 x="0.0784679" y="3.84493"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3675,7 +3681,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>D.I</name>
+            <name>D.I{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3919,7 +3925,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi65-I(+6)</name>
+            <name>I(6)-vi65</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -4023,7 +4029,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6\\</name>
+            <name>I6|IAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4038,7 +4044,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4162,7 +4168,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I6</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4217,13 +4223,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V.IV6</name>
-            </Harmony>
-          <Segment>
-            <leadingSpace>0.3</leadingSpace>
-            </Segment>
           <Beam>
             </Beam>
           <Chord>
@@ -4275,7 +4274,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>V(64)/V</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -4308,15 +4307,15 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(9)</name>
-            <offset x="0" y="-9.15385"/>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/V</name>
+            <offset x="0" y="-9.15385"/>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -4337,11 +4336,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            <offset x="0" y="-9.15385"/>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -4409,8 +4403,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
-            <offset x="-1.87885" y="-7.63445"/>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4427,10 +4420,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>D.I</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
@@ -4438,6 +4427,10 @@
           <Segment>
             <leadingSpace>-1</leadingSpace>
             </Segment>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>D.I{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -5079,15 +5072,15 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(9)</name>
             <offset x="0" y="-9.15385"/>
             </Harmony>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Beam>
             </Beam>
           <Chord>
@@ -5401,13 +5394,8 @@
               <veloChange>10</veloChange>
               <placement>above</placement>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="-3.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="-6.53846"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -6019,9 +6007,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="1">
-                  <o4 x="0" y="-4.88311"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
