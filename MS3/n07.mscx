@@ -4918,7 +4918,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>i(64)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4940,7 +4940,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2</name>
+            <name>V|HC}</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4980,13 +4980,6 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -5048,7 +5041,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5196,6 +5189,10 @@
               </Note>
             </Chord>
           <Beam>
+            <Fragment>
+              <y1>5.595</y1>
+              <y2>4.595</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <durationType>16th</durationType>
