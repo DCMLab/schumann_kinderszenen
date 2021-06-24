@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
@@ -1222,6 +1221,9 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="1">
+                  <o4 x="0.156936" y="0"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5631,13 +5633,13 @@
           <location>
             <fractions>3/64</fractions>
             </location>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <StaffText>
             <offset x="0.313872" y="-6.74638"/>
             <text>ritardando</text>
             </StaffText>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -5846,6 +5848,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(9)</name>
+            <offset x="0.0689992" y="6.73805"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
