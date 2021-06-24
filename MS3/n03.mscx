@@ -4354,7 +4354,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>I6-vi64</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4417,7 +4417,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/vi</name>
+            <name>I6-V(64)/vi</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -4430,6 +4430,10 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/vi</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -4507,7 +4511,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV</name>
+            <name>I/IV</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4584,7 +4588,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV]</name>
+            <name>I/IV]</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4644,7 +4648,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V7</name>
+            <name>i.V7|HC}</name>
             </Harmony>
           <Rest>
             <offset x="0" y="-1"/>
@@ -4856,7 +4860,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -5009,7 +5013,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V(64)</name>
             <offset x="0" y="-8.02773"/>
             </Harmony>
           <Chord>
@@ -5022,6 +5026,10 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -5041,7 +5049,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             <offset x="0" y="-8"/>
             </Harmony>
           <Chord>
@@ -5071,7 +5079,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI.I6</name>
+            <name>VI.I6{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -5148,7 +5156,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V64</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -5161,6 +5169,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -5188,7 +5200,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>I6-vi64</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5251,7 +5263,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/vi</name>
+            <name>I6-V(64)/vi</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -5264,6 +5276,10 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/vi</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -5477,7 +5493,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V7</name>
+            <name>i.V7|HC}</name>
             </Harmony>
           <Rest>
             <offset x="0" y="-1"/>
@@ -5688,7 +5704,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -5841,7 +5857,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V(64)</name>
             <offset x="-0.13164" y="-7.89609"/>
             </Harmony>
           <Beam>
@@ -5864,6 +5880,10 @@
           <Segment>
             <leadingSpace>-1.5</leadingSpace>
             </Segment>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -5883,7 +5903,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             <offset x="-0.263281" y="-8.02773"/>
             </Harmony>
           <Chord>
