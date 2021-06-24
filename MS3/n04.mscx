@@ -2642,14 +2642,14 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio2/IV</name>
+            <name>viio7/IV</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV64</name>
+            <name>IV</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
