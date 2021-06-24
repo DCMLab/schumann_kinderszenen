@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
@@ -180,7 +181,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.3</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -301,6 +301,12 @@
             <velocity>55</velocity>
             <dynType>0</dynType>
             </Dynamic>
+          <Tempo>
+            <tempo>0.83333333333333337</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 100</b></text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -1216,9 +1222,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="1">
-                  <o4 x="0.156936" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1420,6 +1423,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-1</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1830,6 +1836,9 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-1</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3119,7 +3128,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>F.V</name>
+            <name>F.V{</name>
             <offset x="0" y="-5.23077"/>
             </Harmony>
           <Rest>
@@ -3283,6 +3292,10 @@
               </Note>
             </Chord>
           <Beam>
+            <Fragment>
+              <y1>5.664</y1>
+              <y2>4.664</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <durationType>16th</durationType>
@@ -3489,7 +3502,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -3592,7 +3605,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3861,7 +3874,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio65/V</name>
-            <offset x="0.516435" y="-6.5022"/>
+            <offset x="-2.10553" y="3.91677"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -3925,6 +3938,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
+            <offset x="0" y="3.7781"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -3966,7 +3980,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4003,6 +4017,10 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4012,7 +4030,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.V43</name>
+            <name>I.IV</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4025,6 +4043,10 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4156,9 +4178,6 @@
             <harmonyType>1</harmonyType>
             <name>V</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>-1</leadingSpace>
-            </Segment>
           <Chord>
             <staffMove>-1</staffMove>
             <durationType>quarter</durationType>
@@ -4650,9 +4669,6 @@
             <name>V</name>
             <offset x="0" y="-9.15385"/>
             </Harmony>
-          <Segment>
-            <leadingSpace>-1</leadingSpace>
-            </Segment>
           <Chord>
             <staffMove>-1</staffMove>
             <durationType>quarter</durationType>
