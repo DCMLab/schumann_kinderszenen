@@ -2924,6 +2924,10 @@
         </Measure>
       <Measure len="1/4">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3298,7 +3302,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV6(11)</name>
-            <offset x="0" y="-3"/>
+            <offset x="-0.105528" y="5.92808"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
