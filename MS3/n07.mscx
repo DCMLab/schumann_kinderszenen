@@ -4132,7 +4132,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(9)</name>
+            <name>V(b9)</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -4449,7 +4449,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4461,7 +4461,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/III</name>
+            <name>V6/III{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
