@@ -4462,6 +4462,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6/III{</name>
+            <offset x="-0.896989" y="9.3582"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4621,7 +4622,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(2)</name>
+            <name>V(b9)</name>
             </Harmony>
           <Beam>
             </Beam>
