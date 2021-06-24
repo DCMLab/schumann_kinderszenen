@@ -179,7 +179,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.5</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -427,6 +426,9 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>2</leadingSpace>
+            </Segment>
           </voice>
         <voice>
           <Beam>
@@ -617,6 +619,9 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>2</leadingSpace>
+            </Segment>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
@@ -1856,6 +1861,9 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>2</leadingSpace>
+            </Segment>
           </voice>
         <voice>
           <Beam>
@@ -2051,6 +2059,9 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>2</leadingSpace>
+            </Segment>
           </voice>
         <voice>
           <Beam>
@@ -2207,7 +2218,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>D.V7(9)</name>
+            <name>D.V7(9){</name>
             <offset x="0" y="-7.93333"/>
             </Harmony>
           <Beam>
@@ -2343,11 +2354,8 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>2</leadingSpace>
-            </Segment>
           <Beam>
             </Beam>
           <Chord>
@@ -2414,7 +2422,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(9)</name>
+            <name>V7(9){</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -2548,11 +2556,8 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>2</leadingSpace>
-            </Segment>
           <Beam>
             </Beam>
           <Chord>
@@ -3221,9 +3226,6 @@
             <harmonyType>1</harmonyType>
             <name>V</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>2</leadingSpace>
-            </Segment>
           <Beam>
             </Beam>
           <Chord>
@@ -3430,9 +3432,6 @@
             <name>V</name>
             <offset x="0" y="-9.06667"/>
             </Harmony>
-          <Segment>
-            <leadingSpace>2</leadingSpace>
-            </Segment>
           <Beam>
             </Beam>
           <Chord>
