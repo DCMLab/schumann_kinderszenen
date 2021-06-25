@@ -3957,7 +3957,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(+6)-vi65</name>
+            <name>I(+6)-vi6(+7)</name>
             <offset x="0.0975796" y="5.36598"/>
             </Harmony>
           <Chord>
@@ -4727,7 +4727,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(6)-vi65</name>
+            <name>I(+6)-vi6(+7)</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -5985,7 +5985,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(6)-vi65</name>
+            <name>I(+6)-vi6(+7)</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -7251,7 +7251,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(6)-vi65</name>
+            <name>I(+6)-vi6(+7)</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
