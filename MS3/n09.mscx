@@ -2202,7 +2202,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi</name>
+            <name>vi?</name>
             <offset x="-0.4" y="-5"/>
             </Harmony>
           </voice>
