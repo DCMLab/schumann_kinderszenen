@@ -2794,7 +2794,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi{</name>
+            <name>V.ii{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2820,7 +2820,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V.viio6</name>
+            <name>viio6</name>
             <offset x="0" y="-7.93333"/>
             </Harmony>
           <location>
