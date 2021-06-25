@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
@@ -179,7 +180,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.7</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -729,6 +729,9 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -1613,18 +1616,18 @@
     <Staff id="2">
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>C.I6</name>
-            </Harmony>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <TimeSig>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>C.I6{</name>
+            </Harmony>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
@@ -2165,14 +2168,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/IV</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/IV</name>
+            </Harmony>
           <Rest>
             <offset x="0" y="-2.5"/>
             <durationType>quarter</durationType>
@@ -2202,12 +2205,6 @@
             <name>vi</name>
             <offset x="-0.4" y="-5"/>
             </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Segment>
-            <leadingSpace>0.5</leadingSpace>
-            </Segment>
           </voice>
         <voice>
           <Chord>
