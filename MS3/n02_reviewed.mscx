@@ -4306,6 +4306,11 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii64/V</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4398,7 +4403,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/V</name>
+            <name>V7(^2)/V</name>
             <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-9.15385"/>
             </Harmony>
@@ -4426,6 +4431,11 @@
             <harmonyType>1</harmonyType>
             <name>V7</name>
             <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -5139,6 +5149,11 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii64/V</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5228,7 +5243,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/V</name>
+            <name>V7(^2)/V</name>
             <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-9.15385"/>
             </Harmony>
@@ -5256,6 +5271,11 @@
             <harmonyType>1</harmonyType>
             <name>V7</name>
             <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
