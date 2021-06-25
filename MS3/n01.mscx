@@ -2167,17 +2167,6 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
-            <offset x="-0.745962" y="-5.66667"/>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
@@ -2390,16 +2379,6 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/vi</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
@@ -2611,16 +2590,6 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I|IAC}</name>
@@ -2663,6 +2632,13 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           </voice>
         <voice>
           <Beam>
@@ -2751,7 +2727,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I{</name>
+            <name>I</name>
             </Harmony>
           <Tuplet>
             <offset x="-0.566667" y="2.26667"/>
