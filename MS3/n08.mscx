@@ -180,7 +180,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.3</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -2871,20 +2870,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
