@@ -2184,18 +2184,18 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2</name>
-            <offset x="-0.745962" y="-5.66667"/>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
             </location>
+          <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
@@ -2413,17 +2413,18 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2/vi</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
             </location>
+          <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
@@ -2640,17 +2641,18 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V64</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
             </location>
+          <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I\\</name>
@@ -2711,6 +2713,14 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           </voice>
         <voice>
           <Beam>
@@ -2800,12 +2810,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I{</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Tuplet>
             <offset x="-0.566667" y="2.26667"/>
