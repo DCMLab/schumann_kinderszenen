@@ -5200,7 +5200,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6-vi64</name>
+            <name>vi64-I6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5232,7 +5232,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43</name>
+            <name>iio6/vi-V43</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5263,7 +5263,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6-V(64)/vi</name>
+            <name>V(64)/vi-I6</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
