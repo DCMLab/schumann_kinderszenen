@@ -4350,7 +4350,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/V</name>
+            <name>V7(^2)/V</name>
             <offset x="0" y="-9.15385"/>
             </Harmony>
           <Beam>
@@ -4373,6 +4373,10 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/V</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -5119,7 +5123,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/V</name>
+            <name>V7(^2)/V</name>
             <offset x="0" y="-9.15385"/>
             </Harmony>
           <Beam>
@@ -5142,6 +5146,10 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/V</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
