@@ -4260,7 +4260,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>{</name>
+            <name>{?</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4611,11 +4611,15 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64</name>
+            <name>I64}</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
