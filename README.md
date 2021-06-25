@@ -4,7 +4,7 @@
 |file_name|measures|labels|standard|              annotators              | reviewers  |
 |---------|-------:|-----:|--------|--------------------------------------|------------|
 |n01      |      22|    44|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)|AN, JHei, JH|
-|n02      |      40|   134|2.1.1   |Tal Soker                             |AN          |
+|n02      |      40|   123|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)|AN, JHei, JH|
 |n03      |      31|    49|2.1.1   |Tal Soker                             |AN          |
 |n04      |      17|    55|2.1.1   |Tal Soker                             |AN          |
 |n05      |      17|    66|2.1.1   |Tal Soker                             |AN          |
