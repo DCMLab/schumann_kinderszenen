@@ -184,7 +184,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>1</showMargins>
-    <metaTag name="annotators">Tal Soker (John Heilig)</metaTag>
+    <metaTag name="annotators">Tal Soker (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1838</metaTag>
     <metaTag name="composed_start">1838</metaTag>
@@ -199,7 +199,7 @@
     <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/67290 </metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">AN (JHei)</metaTag>
+    <metaTag name="reviewers">AN, JHei, JH</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/22249306/scores/4778176</metaTag>
     <metaTag name="translator"></metaTag>
@@ -4405,7 +4405,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6-vi64</name>
+            <name>vi64-I6</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -4439,6 +4439,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6/vi-V43</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4474,7 +4480,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6-V(64)/vi</name>
+            <name>V(64)/vi-I6</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -5314,7 +5320,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6-vi64</name>
+            <name>vi64-I6</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -5348,6 +5354,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6/vi-V43</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5383,7 +5395,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6-V(64)/vi</name>
+            <name>V(64)/vi-I6</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
