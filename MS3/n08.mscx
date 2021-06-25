@@ -3282,7 +3282,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2/ii</name>
+            <name>V7/ii</name>
             </Harmony>
           <Rest>
             <offset x="0" y="-1.30769"/>
@@ -3352,7 +3352,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2/ii</name>
+            <name>V65/ii</name>
             <offset x="-2.76096" y="-7.84615"/>
             </Harmony>
           <Chord>
@@ -3444,7 +3444,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2/ii</name>
+            <name>V7/ii</name>
             </Harmony>
           <Rest>
             <offset x="0" y="-1.30769"/>
@@ -3544,7 +3544,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii6</name>
+            <name>iii</name>
             </Harmony>
           <Rest>
             <offset x="0" y="-1.30769"/>
@@ -3668,7 +3668,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii6</name>
+            <name>iii</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
