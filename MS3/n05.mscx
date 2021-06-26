@@ -3968,7 +3968,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65(#7)|HC}{</name>
+            <name>V65(#7)}{</name>
             <offset x="0" y="-11.7692"/>
             </Harmony>
           <Chord>
@@ -4042,7 +4042,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7|HC</name>
             <offset x="0" y="-11.7692"/>
             </Harmony>
           <Chord>
