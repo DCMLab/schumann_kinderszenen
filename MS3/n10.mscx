@@ -76,6 +76,8 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
       <musicalTextFont>Leland Text</musicalTextFont>
@@ -5207,7 +5209,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V(64)</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -5216,10 +5218,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            </Harmony>
           <Beam>
             </Beam>
           <Chord>
