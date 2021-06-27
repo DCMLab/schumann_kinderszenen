@@ -305,6 +305,7 @@
           <Tempo>
             <tempo>1</tempo>
             <followText>1</followText>
+            <visible>0</visible>
             <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 120</b></text>
             </Tempo>
           <Chord>
@@ -5814,7 +5815,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i[i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -6004,7 +6005,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43/iv</name>
+            <name>i[#viio43/iv</name>
             </Harmony>
           <Beam>
             </Beam>
