@@ -6,7 +6,7 @@
 |n01      |      22|    44|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)|AN, JHei, JH|
 |n02      |      40|   123|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)|AN, JHei, JH|
 |n03      |      31|    58|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)|AN, JHei, JH|
-|n04      |      17|    55|2.1.1   |Tal Soker                             |AN          |
+|n04      |      17|    53|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)|AN, JHei, JH|
 |n05      |      17|    66|2.1.1   |Tal Soker                             |AN          |
 |n06      |      24|    84|2.3.0   |Tal Soker (John Heilig)               |AN (JHei)   |
 |n07      |      24|    72|2.1.1   |Tal Soker                             |AN          |
