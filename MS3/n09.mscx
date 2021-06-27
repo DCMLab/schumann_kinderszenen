@@ -76,6 +76,7 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <createMultiMeasureRests>1</createMultiMeasureRests>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
       <musicalTextFont>Leland Text</musicalTextFont>
@@ -2314,7 +2315,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii.#viio65(b3)</name>
+            <name>ii.Ger6/iv</name>
             <offset x="-2" y="-5"/>
             </Harmony>
           <Chord>
