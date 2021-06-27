@@ -5299,6 +5299,10 @@
               <tpc>24</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(6)</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -5326,6 +5330,12 @@
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.169138" y="2.83948"/>
+                <off2 x="0" y="0"/>
+                <minDistance>0</minDistance>
+                </Segment>
               </Pedal>
             <next>
               <location>
