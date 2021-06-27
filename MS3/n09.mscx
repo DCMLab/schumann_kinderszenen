@@ -1660,11 +1660,6 @@
           <location>
             <fractions>1/4</fractions>
             </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio7/iii?</name>
-            <offset x="0" y="-8"/>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
