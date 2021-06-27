@@ -6303,7 +6303,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv65</name>
+            <name>ii65/III</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -6327,12 +6327,11 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/8</fractions>
+            <fractions>-1/16</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii%65/III</name>
-            <offset x="-1.13333" y="-6.8"/>
             </Harmony>
           </voice>
         <voice>
