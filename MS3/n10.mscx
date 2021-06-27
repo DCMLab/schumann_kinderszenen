@@ -4963,7 +4963,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>g#.V</name>
+            <name>g#.V{</name>
             <offset x="-2.57193" y="-5.58494"/>
             </Harmony>
           <Rest>
@@ -5323,7 +5323,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
