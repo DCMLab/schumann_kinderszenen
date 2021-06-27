@@ -6531,7 +6531,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(6)</name>
+            <name>V(6)}</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -6566,7 +6566,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7|HC</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -6575,6 +6575,13 @@
               <tpc>23</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/32</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
