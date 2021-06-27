@@ -6907,6 +6907,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(6)</name>
+            <offset x="-1.43767" y="3.78502"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -6928,13 +6929,19 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.51603"/>
+                <off2 x="0" y="0"/>
+                <minDistance>0</minDistance>
+                </Segment>
               </Pedal>
             <next>
               <location>
