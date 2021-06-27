@@ -6588,7 +6588,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i[i</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
