@@ -2169,7 +2169,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2/IV</name>
+            <name>V2/IV{</name>
             </Harmony>
           <Rest>
             <offset x="0" y="-2.5"/>
@@ -2197,7 +2197,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi?</name>
+            <name>vi??</name>
             <offset x="-0.4" y="-5"/>
             </Harmony>
           </voice>
@@ -2264,7 +2264,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV(4)?</name>
+            <name>IV(4)??</name>
             </Harmony>
           </voice>
         <voice>
