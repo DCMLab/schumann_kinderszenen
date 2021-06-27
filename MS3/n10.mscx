@@ -5330,6 +5330,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <offset x="0.591983" y="8.77458"/>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -5992,6 +5993,13 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
