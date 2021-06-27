@@ -5508,7 +5508,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V{</name>
             </Harmony>
           </voice>
         </Measure>
@@ -5663,6 +5663,10 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43(9)/V</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
