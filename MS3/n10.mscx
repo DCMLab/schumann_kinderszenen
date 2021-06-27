@@ -6332,6 +6332,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii%65/III</name>
+            <offset x="-3.21362" y="6.37534"/>
             </Harmony>
           </voice>
         <voice>
@@ -6390,6 +6391,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V/III</name>
+            <minDistance>-1.86793</minDistance>
+            <offset x="0.169138" y="6.29482"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -6422,6 +6425,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/III</name>
+            <offset x="-2.62164" y="3.64739"/>
             </Harmony>
           </voice>
         <voice>
@@ -6475,7 +6479,8 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III(9)</name>
+            <name>III(9)?</name>
+            <offset x="0.084569" y="6.03837"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
