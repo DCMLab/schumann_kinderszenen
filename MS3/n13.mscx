@@ -594,6 +594,12 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>2.14447</y1>
+              <y2>0.894472</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <appoggiatura/>
@@ -2068,6 +2074,12 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-0.894472</y1>
+              <y2>-0.644472</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <appoggiatura/>
@@ -3793,7 +3805,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.viio7</name>
+            <name>I.viio7}</name>
             <offset x="0" y="-8.5"/>
             </Harmony>
           </voice>
@@ -3841,7 +3853,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2</name>
+            <name>V2{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
