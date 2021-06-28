@@ -180,7 +180,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.3</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -338,6 +337,9 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -3941,9 +3943,6 @@
             <harmonyType>1</harmonyType>
             <name>V6</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.5</leadingSpace>
-            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -3961,7 +3960,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vo6</name>
+            <name>viio6/VI</name>
             <offset x="-0.181045" y="-7.0816"/>
             </Harmony>
           <Chord>
@@ -3987,7 +3986,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III.vii%7/V</name>
+            <name>#viio6(2)/V</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -4009,7 +4008,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio7/V</name>
+            <name>#viio6/V</name>
             <offset x="0.130769" y="-6.53846"/>
             </Harmony>
           <location>
@@ -4017,7 +4016,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6</name>
+            <name>III.iio6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
