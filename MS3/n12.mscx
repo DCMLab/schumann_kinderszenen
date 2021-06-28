@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
@@ -181,7 +182,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.7</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -296,8 +296,13 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>0.76666666666666661</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 92</b></text>
+            </Tempo>
           <Rest>
-            <offset x="0" y="2"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -321,6 +326,9 @@
               <play>0</play>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.4</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -403,6 +411,9 @@
               <play>0</play>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.4</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -506,6 +517,9 @@
               <play>0</play>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.4</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -592,6 +606,9 @@
               <play>0</play>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.4</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -686,6 +703,9 @@
               <play>0</play>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.4</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -772,6 +792,9 @@
               <play>0</play>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.4</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -875,6 +898,9 @@
               <play>0</play>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.4</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -945,6 +971,9 @@
               <play>0</play>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.4</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1934,7 +1963,7 @@
               </Note>
             </Chord>
           <Segment>
-            <leadingSpace>0.2</leadingSpace>
+            <leadingSpace>0.7</leadingSpace>
             </Segment>
           </voice>
         </Measure>
@@ -1948,9 +1977,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
@@ -2268,7 +2294,7 @@
               </Note>
             </Chord>
           <Segment>
-            <leadingSpace>1</leadingSpace>
+            <leadingSpace>0.9</leadingSpace>
             </Segment>
           </voice>
         </Measure>
@@ -2522,9 +2548,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
@@ -2642,7 +2665,7 @@
               </Note>
             </Chord>
           <Segment>
-            <leadingSpace>-1</leadingSpace>
+            <leadingSpace>0.2</leadingSpace>
             </Segment>
           <Chord>
             <durationType>16th</durationType>
@@ -2727,7 +2750,7 @@
               </Note>
             </Chord>
           <Segment>
-            <leadingSpace>-1</leadingSpace>
+            <leadingSpace>0.3</leadingSpace>
             </Segment>
           <Chord>
             <durationType>16th</durationType>
@@ -2809,6 +2832,9 @@
               <play>0</play>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.3</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -3194,17 +3220,17 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>e.i</name>
+            </Harmony>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>55</velocity>
             <dynType>0</dynType>
             <placement>above</placement>
-            <offset x="-0.206705" y="-3.57474"/>
+            <offset x="-3.82572" y="3.92215"/>
             </Dynamic>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>e.i</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -3249,9 +3275,6 @@
             <harmonyType>1</harmonyType>
             <name>V6</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.4</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -3353,9 +3376,6 @@
             <harmonyType>1</harmonyType>
             <name>V6</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.4</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -3457,9 +3477,6 @@
             <harmonyType>1</harmonyType>
             <name>v6</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.4</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -3562,9 +3579,6 @@
             <harmonyType>1</harmonyType>
             <name>V</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.4</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -3666,9 +3680,6 @@
             <harmonyType>1</harmonyType>
             <name>V6</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.4</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -3770,9 +3781,6 @@
             <harmonyType>1</harmonyType>
             <name>V6</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.4</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -3875,9 +3883,6 @@
             <harmonyType>1</harmonyType>
             <name>v6</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.4</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -3980,9 +3985,6 @@
             <harmonyType>1</harmonyType>
             <name>V\\</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.4</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -4716,11 +4718,6 @@
                   <o2 x="0.316225" y="0.474338"/>
                   <o3 x="0.316225" y="0.474338"/>
                   </SlurSegment>
-                <SlurSegment no="1">
-                  <o1 x="-1.18856e-17" y="1.93662"/>
-                  <o4 x="0" y="0.430361"/>
-                  <offset x="0" y="1.5"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -4777,9 +4774,6 @@
           <location>
             <fractions>1/16</fractions>
             </location>
-          <Segment>
-            <leadingSpace>0.7</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -4909,9 +4903,6 @@
           <location>
             <fractions>1/16</fractions>
             </location>
-          <Segment>
-            <leadingSpace>1</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -4954,9 +4945,6 @@
           <location>
             <fractions>1/16</fractions>
             </location>
-          <Segment>
-            <leadingSpace>0.9</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -5423,9 +5411,6 @@
             <harmonyType>1</harmonyType>
             <name>V6</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.2</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -5515,9 +5500,6 @@
             <name>V6</name>
             <offset x="0" y="-6"/>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.3</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -5618,9 +5600,6 @@
             <name>iv(9)</name>
             <offset x="0" y="-7"/>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.3</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -5823,9 +5802,6 @@
             <name>iio(9)</name>
             <offset x="0" y="-7"/>
             </Harmony>
-          <Segment>
-            <leadingSpace>0.2</leadingSpace>
-            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
