@@ -1857,7 +1857,7 @@
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -2043,18 +2043,12 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -2217,6 +2211,13 @@
       <Measure>
         <stretch>0.9</stretch>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -4252,12 +4253,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bIII.V(+6)</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>bIII.V(^6)</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-10.4615"/>
             </Harmony>
           <Chord>
@@ -4710,7 +4705,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(^6){</name>
+            <name>V(+6){</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
