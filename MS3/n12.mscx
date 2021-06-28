@@ -4306,6 +4306,20 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-3/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V64(6)</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V64</name>
+            </Harmony>
           </voice>
         <voice>
           <Chord>
