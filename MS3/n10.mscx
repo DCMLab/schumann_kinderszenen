@@ -8386,6 +8386,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <offset x="0" y="4.45679"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
