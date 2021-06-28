@@ -5137,7 +5137,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6(9)</name>
+            <name>ii6(9)</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -5146,6 +5146,10 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii6(+4)</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5158,7 +5162,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>ii6</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
