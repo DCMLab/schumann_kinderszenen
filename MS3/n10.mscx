@@ -8366,6 +8366,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>}</name>
+            </Harmony>
           <Beam>
             <Fragment>
               <y1>-5.15915</y1>
@@ -8381,7 +8385,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i}</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
