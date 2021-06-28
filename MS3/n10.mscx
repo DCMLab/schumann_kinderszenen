@@ -7269,6 +7269,10 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43(9)/V</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
