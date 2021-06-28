@@ -1789,10 +1789,12 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <startRepeat/>
         <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
@@ -2042,7 +2044,6 @@
           </voice>
         </Measure>
       <Measure>
-        <endRepeat>2</endRepeat>
         <stretch>0.9</stretch>
         <voice>
           <Rest>
@@ -2116,6 +2117,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -5333,6 +5337,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         <voice>
           <Beam>
@@ -5716,6 +5723,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
