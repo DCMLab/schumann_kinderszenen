@@ -3179,7 +3179,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3212,7 +3212,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii.#viio43</name>
+            <name>ii.#viio43{</name>
             <offset x="0" y="-3.5"/>
             </Harmony>
           <Chord>
