@@ -7425,6 +7425,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>}</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -7437,7 +7441,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
