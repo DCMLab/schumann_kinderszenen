@@ -7415,7 +7415,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i[i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -7608,7 +7608,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43/iv</name>
+            <name>i[#viio43/iv</name>
             </Harmony>
           <Beam>
             </Beam>
