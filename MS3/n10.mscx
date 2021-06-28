@@ -7694,8 +7694,8 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43</name>
-            <offset x="0.745962" y="-5.66667"/>
+            <name>i.#viio43/V?</name>
+            <offset x="0.645962" y="-5.66667"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -7750,7 +7750,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V]\\</name>
+            <name>V|HC}]</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
