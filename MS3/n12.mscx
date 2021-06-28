@@ -6029,7 +6029,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv64</name>
+            <name>i(64)}</name>
             <offset x="0" y="-7"/>
             </Harmony>
           <Chord>
