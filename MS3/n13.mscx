@@ -3657,7 +3657,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43/vi</name>
+            <name>#viio43</name>
             <offset x="0" y="-4.5"/>
             </Harmony>
           <location>
@@ -3686,7 +3686,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7/iii</name>
+            <name>#viio7/V</name>
             <offset x="0" y="-4.5"/>
             </Harmony>
           <Spanner type="HairPin">
@@ -3712,6 +3712,10 @@
               <tpc>24</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(9)</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -3726,9 +3730,19 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65/iii</name>
+            <name>V</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio65(2)/V</name>
             <offset x="0" y="-8.5"/>
             </Harmony>
           <Chord>
@@ -3751,6 +3765,10 @@
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio65/V</name>
+            </Harmony>
           <Chord>
             <small>1</small>
             <dots>1</dots>
@@ -3775,7 +3793,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio65/V</name>
+            <name>I.viio7</name>
             <offset x="0" y="-8.5"/>
             </Harmony>
           </voice>
