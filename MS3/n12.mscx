@@ -5405,7 +5405,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(6)/III</name>
+            <name>V7(6)</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5416,7 +5416,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/III</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
