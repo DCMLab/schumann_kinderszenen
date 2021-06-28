@@ -302,7 +302,7 @@
             <tempo>0.76666666666666661</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 92</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 92</b></text>
             </Tempo>
           <Rest>
             <durationType>quarter</durationType>
@@ -4814,7 +4814,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v{</name>
+            <name>v-ii/III{</name>
             <minDistance>-4.23371</minDistance>
             <offset x="-1.26634" y="13.9975"/>
             </Harmony>
@@ -4856,7 +4856,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii(4)</name>
+            <name>vi(4)/IV</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -4877,7 +4877,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii</name>
+            <name>vi/IV</name>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -4924,7 +4924,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV</name>
+            <name>I/IV</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
