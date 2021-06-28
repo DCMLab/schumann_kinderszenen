@@ -5427,7 +5427,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6(6)</name>
+            <name>i.V6(6)}</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -5448,7 +5448,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V65|HC</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
