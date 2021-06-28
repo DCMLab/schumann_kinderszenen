@@ -2266,6 +2266,12 @@
           <location>
             <fractions>5/16</fractions>
             </location>
+          <Beam>
+            <Fragment>
+              <y1>2.03894</y1>
+              <y2>0.788944</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <appoggiatura/>
@@ -3988,7 +3994,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -4021,7 +4027,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii.#viio43</name>
+            <name>ii.#viio43{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
