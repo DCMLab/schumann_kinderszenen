@@ -4665,6 +4665,20 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-3/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V64(6)</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V64</name>
+            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -4715,7 +4729,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V64\\</name>
+            <name>V64}</name>
             <offset x="0" y="-6"/>
             </Harmony>
           <Chord>
@@ -4730,6 +4744,10 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V64(6)</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4745,6 +4763,10 @@
           <Segment>
             <leadingSpace>0.2</leadingSpace>
             </Segment>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)|HC</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -4791,7 +4813,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>v{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
