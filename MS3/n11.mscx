@@ -4755,7 +4755,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V(64)\\</name>
+            <name>i.V(64)|HC?}</name>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
