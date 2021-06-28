@@ -3544,7 +3544,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi.viio43</name>
+            <name>vi.#viio43</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3571,7 +3571,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi6</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3587,7 +3587,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65/vi</name>
+            <name>#viio65</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
