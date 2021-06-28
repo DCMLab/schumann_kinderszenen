@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
@@ -74,6 +75,8 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
       <musicalTextFont>Leland Text</musicalTextFont>
@@ -178,7 +181,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.7</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -542,14 +544,9 @@
               <subtype>0</subtype>
               <dynType>0</dynType>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="3"/>
                 <off2 x="-0.424047" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -2363,14 +2360,9 @@
               <subtype>1</subtype>
               <veloChange>20</veloChange>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="5"/>
                 <off2 x="-4.33104" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="5"/>
-                <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -3048,7 +3040,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>G.V2</name>
+            <name>G.V2{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3244,9 +3236,6 @@
               <Slur>
                 <SlurSegment no="0">
                   <offset x="0" y="-2"/>
-                  </SlurSegment>
-                <SlurSegment no="1">
-                  <o4 x="0.0966385" y="0"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -3554,9 +3543,6 @@
                 <SlurSegment no="0">
                   <o4 x="-0.948675" y="0"/>
                   <offset x="0" y="-1"/>
-                  </SlurSegment>
-                <SlurSegment no="1">
-                  <offset x="0" y="-1.5"/>
                   </SlurSegment>
                 <up>down</up>
                 </Slur>
