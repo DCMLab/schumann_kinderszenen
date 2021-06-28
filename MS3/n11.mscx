@@ -4391,6 +4391,16 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43(4)</name>
+            </Harmony>
+          <location>
+            <fractions>1/16</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
