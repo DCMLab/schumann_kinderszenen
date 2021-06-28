@@ -6648,7 +6648,7 @@
             </BarLine>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.i</name>
+            <name>i.i{</name>
             </Harmony>
           <Beam>
             </Beam>
