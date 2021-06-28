@@ -10,11 +10,11 @@ mc	mn	keysig	timesig	act_dur	mc_offset	volta	numbering_offset	dont_count	barline
 9	8	2	2/4	1/2	0	1										10
 10	9	2	2/4	1/2	0	1					end					3
 11	9	2	2/4	1/2	0	2		1								12
-12	10	2	2/4	1/2	0					line						13
-13	11	2	2/4	1/2	0											14
-14	12	2	2/4	1/2	0											15
-15	13	2	2/4	1/2	0											16
-16	14	2	2/4	1/2	0					line						17
-17	15	2	2/4	1/2	0											18
-18	16	2	2/4	1/2	0											19
-19	17	2	2/4	1/2	0				end		lastMeasure		start		end	1
+12	9	2	2/4	1/2	0	2		1		line						13
+13	10	2	2/4	1/2	0											14
+14	11	2	2/4	1/2	0											15
+15	12	2	2/4	1/2	0											16
+16	13	2	2/4	1/2	0					line						17
+17	14	2	2/4	1/2	0											18
+18	15	2	2/4	1/2	0											19
+19	16	2	2/4	1/2	0				end		lastMeasure		start		end	1
