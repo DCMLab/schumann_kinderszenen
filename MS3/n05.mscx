@@ -1818,8 +1818,8 @@
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <stretch>0.9</stretch>
+        <noOffset>-2</noOffset>
         <voice>
           <Spanner type="Volta">
             <prev>
@@ -2043,7 +2043,6 @@
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
