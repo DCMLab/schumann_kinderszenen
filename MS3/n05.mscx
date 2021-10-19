@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
@@ -185,7 +184,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>1</showMargins>
-    <metaTag name="annotators">Tal Soker (John Heilig)</metaTag>
+    <metaTag name="annotators">Tal Soker (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="comments">measurcount differs from pdf � second house not excluded in original</metaTag>
     <metaTag name="composed_end">1838</metaTag>
@@ -201,7 +200,7 @@
     <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/67290 </metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">AN (JHei)</metaTag>
+    <metaTag name="reviewers">AN, JHei, JH</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/22249306/scores/4778176</metaTag>
     <metaTag name="translator"></metaTag>
@@ -305,7 +304,7 @@
             <tempo>1.1000000000000001</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 132</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 132</b></text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>
@@ -1350,8 +1349,13 @@
               <dynType>0</dynType>
               <placement>above</placement>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-4.00823"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="-3.5"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -1814,8 +1818,8 @@
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <stretch>0.9</stretch>
+        <noOffset>-2</noOffset>
         <voice>
           <Spanner type="Volta">
             <prev>
@@ -1853,7 +1857,7 @@
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -2044,13 +2048,6 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -2213,6 +2210,13 @@
       <Measure>
         <stretch>0.9</stretch>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -3290,7 +3294,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>D.V43(#7)</name>
+            <name>D.V43(#7){</name>
             <offset x="-3.37343" y="-6.53846"/>
             </Harmony>
           <Rest>
@@ -3964,7 +3968,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65(#7)|HC}{</name>
+            <name>V65(#7)}{</name>
             <offset x="0" y="-11.7692"/>
             </Harmony>
           <Chord>
@@ -4038,7 +4042,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7|HC</name>
             <offset x="0" y="-11.7692"/>
             </Harmony>
           <Chord>
@@ -4148,7 +4152,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIII.V(6)</name>
+            <name>bIII.V(+6)</name>
             <offset x="0" y="-10.4615"/>
             </Harmony>
           <Chord>
@@ -4542,7 +4546,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(6){</name>
+            <name>V(+6){</name>
             </Harmony>
           </voice>
         <voice>
