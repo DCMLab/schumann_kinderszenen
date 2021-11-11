@@ -32,7 +32,7 @@ jobs:
         with:
           repository: DCMLab/corpus_statistics_generator
           path: ./corpusstats
-          token: ${{ secrets.PAC }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Install corpusstats
         run: python -m pip install -e ./corpusstats
       - name: Install dependencies
