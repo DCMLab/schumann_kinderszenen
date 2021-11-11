@@ -32,7 +32,8 @@ jobs:
         with:
           repository: DCMLab/corpus_statistics_generator
           path: ./corpusstats
-          token: ${{ secrets.GITHUB_TOKEN }}
+	  ref: main
+          token: ${{ secrets.MS3_BOT_MAINTENANCE  }}
       - name: Install corpusstats
         run: python -m pip install -e ./corpusstats
       - name: Install dependencies
