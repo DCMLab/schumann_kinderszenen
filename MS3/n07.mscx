@@ -4415,7 +4415,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i64(2)</name>
+            <name>i64(2)}</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4445,7 +4445,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i|IAC}</name>
+            <name>i|IAC</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
