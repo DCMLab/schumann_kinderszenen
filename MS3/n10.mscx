@@ -6325,7 +6325,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii%65/III-ii65(b5)/III</name>
-            <offset x="-3.21362" y="6.37534"/>
+            <offset x="-3.21362" y="4.22257"/>
             </Harmony>
           </voice>
         <voice>
@@ -6383,7 +6383,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/III</name>
+            <name>V7/III</name>
             <minDistance>-1.86793</minDistance>
             <offset x="0.169138" y="6.29482"/>
             </Harmony>
