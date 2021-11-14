@@ -4573,7 +4573,6 @@
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <stretch>0.4</stretch>
         <voice>
           <Beam>
@@ -8141,7 +8140,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(9)</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -8150,10 +8149,6 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -8171,10 +8166,6 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i(9)</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -8193,10 +8184,6 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Rest>
             <offset x="0" y="-4"/>
             <visible>0</visible>
@@ -8280,10 +8267,6 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i(9)</name>
-            </Harmony>
           <Rest>
             <offset x="0" y="-2"/>
             <visible>0</visible>
@@ -8340,11 +8323,6 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            <offset x="0" y="4.45679"/>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
