@@ -6512,7 +6512,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(6)}</name>
+            <name>V7(6)}</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -6531,10 +6531,6 @@
               <tpc>23</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(6)</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
