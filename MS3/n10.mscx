@@ -7905,7 +7905,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%65/III</name>
+            <name>ii%65/III-ii65(b5)/III</name>
             <offset x="-0.119599" y="5.05478"/>
             </Harmony>
           </voice>
@@ -8049,7 +8049,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III(9)?</name>
+            <name>III</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -8058,10 +8058,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III</name>
-            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -8092,7 +8088,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(6)}</name>
+            <name>V7(6)}</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -8111,10 +8107,6 @@
               <tpc>23</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(6)</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
