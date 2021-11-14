@@ -5083,6 +5083,10 @@
             <placement>above</placement>
             <offset x="-0.174948" y="-6.32916"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
