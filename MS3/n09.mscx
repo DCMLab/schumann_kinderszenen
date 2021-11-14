@@ -2349,7 +2349,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv64(#7)-V(#764)/vi</name>
+            <name>iv64(#7)-V(#764)/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
