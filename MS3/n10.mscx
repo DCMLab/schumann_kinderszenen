@@ -6472,7 +6472,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III(9)?</name>
+            <name>III</name>
             <offset x="0.084569" y="6.03837"/>
             </Harmony>
           <Chord>
@@ -6482,10 +6482,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III</name>
-            </Harmony>
           <Beam>
             </Beam>
           <Chord>
