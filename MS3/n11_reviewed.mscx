@@ -4799,6 +4799,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -4823,7 +4829,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V(64)|HC?}</name>
+            <name>i.V(6){</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -4844,12 +4850,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i{</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <offset x="0" y="3.92308"/>
@@ -5189,6 +5189,11 @@
             <placement>above</placement>
             <offset x="-0.174948" y="-6.32916"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -5511,6 +5516,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III.I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III.I{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -7078,6 +7089,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7102,7 +7119,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V(64)|HC}</name>
+            <name>i.V(6){</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -7124,12 +7141,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i{</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <offset x="0" y="3.92308"/>
