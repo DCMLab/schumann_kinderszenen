@@ -76,7 +76,8 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
-      <createMultiMeasureRests>1</createMultiMeasureRests>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
       <musicalTextFont>Leland Text</musicalTextFont>
@@ -2121,7 +2122,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]|IAC?}</name>
+            <name>I]|IAC}</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -2224,12 +2225,6 @@
             <name>vi</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi??</name>
-            <color r="0" g="85" b="0" a="255"/>
-            <offset x="-0.4" y="-5"/>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -2296,11 +2291,6 @@
             <harmonyType>1</harmonyType>
             <name>IV(4)</name>
             <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV(4)??</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
         <voice>
@@ -2409,7 +2399,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv64(#7)-V(#764)/vi</name>
+            <name>iv64(#7)-V(#764)/iv</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -2720,6 +2710,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I[I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I[I|PAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3048,7 +3044,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]|PAC?}</name>
+            <name>I]}</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
