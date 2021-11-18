@@ -1662,6 +1662,10 @@
           <location>
             <fractions>1/4</fractions>
             </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6(#2#46)</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
