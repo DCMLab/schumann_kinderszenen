@@ -11,7 +11,7 @@
 |n06      |      24|    84|2.3.0   |Tal Soker (John Heilig)               |AN (JHei)   |
 |n07      |      24|    73|2.1.1   |Tal Soker                             |AN          |
 |n08      |      32|    73|2.1.1   |Tal Soker (2.1.1), John Heilig (2.3.0)|AN, JHei    |
-|n09      |      24|    48|2.1.1   |Tal Soker                             |AN          |
+|n09      |      24|    46|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)|AN. JHei    |
 |n10      |      56|    72|2.1.1   |Tal Soker                             |AN          |
 |n11      |      48|   121|2.1.1   |Tal Soker                             |AN          |
 |n12      |      32|    92|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)|AN, JHei    |
