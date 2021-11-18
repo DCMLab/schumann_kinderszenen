@@ -5991,7 +5991,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i[#viio43/iv</name>
+            <name>i.V[#viio43</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -6030,7 +6030,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -6070,7 +6070,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43</name>
+            <name>viio43/V</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -6112,7 +6112,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V]|HC}</name>
+            <name>V]|HC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -7573,7 +7573,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i[#viio43/iv</name>
+            <name>i.V[#viio43</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -7612,7 +7612,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -7652,7 +7652,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43</name>
+            <name>viio43/V</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -7694,7 +7694,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V]|HC}</name>
+            <name>V]|HC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
