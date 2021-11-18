@@ -6112,7 +6112,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V|HC]}</name>
+            <name>i.V]|HC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -7694,7 +7694,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V|HC]}</name>
+            <name>i.V]|HC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
