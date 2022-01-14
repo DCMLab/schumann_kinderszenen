@@ -46,12 +46,18 @@ def create_modulation_plan(data, task_column='semitones', sort_and_fill=True, ti
         title += f" ({globalkey})"
         if task_column == 'fifths':
             tonic = name2fifths(globalkey)
-            transposed = data.fifths + tonic
-            data.fifths = transform(transposed, fifths2name)
+            if tonic is not None:
+                transposed = data.fifths + tonic
+                data.fifths = transform(transposed, fifths2name)
+            else:
+                print(f"Invalid globalkey '{globalkey}', could not convert Y-axis to names.")
         elif task_column == 'semitones':
             tonic = name2pc(globalkey)
-            transposed = data.semitones + tonic
-            data.semitones = transform(transposed, midi2name)
+            if tonic is not None:
+                transposed = data.semitones + tonic
+                data.semitones = transform(transposed, midi2name)
+            else:
+                print(f"Invalid globalkey '{globalkey}', could not convert Y-axis to names.")
 
     ytitle = Y_AXIS
     if task_column in ('semitones', 'fifths'):
@@ -265,9 +271,16 @@ def write_gantt_charts(args):
         metadata = score_obj.mscx.metadata
         logger = score_obj.mscx.logger
         last_mn = metadata["last_mn"]
-        globalkey = metadata["annotated_key"]
+        try:
+            globalkey = metadata["annotated_key"]
+        except:
+            logger.warning('Global key is missing in the metadata.')
+            globalkey = '?'
         logger.debug(f"Creating Gantt data for {fname}...")
-        data = make_gantt_data(at)
+        data = make_gantt_data(at, logger=logger)
+        if len(data) == 0:
+            logger.debug(f"Could not create Gantt data for {fname}...")
+            continue
         phrases = get_phraseends(at)
         data.sort_values(args.yaxis, ascending=False, inplace=True)
         logger.debug(f"Making and storing Gantt chart for {fname}...")
