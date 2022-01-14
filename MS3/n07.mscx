@@ -76,6 +76,8 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
       <musicalTextFont>Leland Text</musicalTextFont>
@@ -304,7 +306,7 @@
             <tempo>0.83333333333333337</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 100</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 100</b></text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -4019,10 +4021,6 @@
               <velocity>-20</velocity>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>{</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4030,10 +4028,6 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I.IV</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4047,7 +4041,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43</name>
+            <name>I.V43{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4134,7 +4128,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(b9)</name>
+            <name>V(9)</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -4421,7 +4415,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i64(2)</name>
+            <name>i64(2)}</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4451,7 +4445,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i|IAC}</name>
+            <name>i|IAC</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4624,7 +4618,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(b9)</name>
+            <name>V(9)</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -5633,13 +5627,13 @@
           <location>
             <fractions>3/64</fractions>
             </location>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <StaffText>
             <offset x="0.313872" y="-6.74638"/>
             <text>ritardando</text>
             </StaffText>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
