@@ -1,0 +1,101 @@
+Warnings encountered during the last execution of ms3 review (v1.0.2)
+=====================================================================
+
+WARNING  ms3.Parse.schumann_kinderszenen.n05 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3264) unfold_measures_table():
+	Error in the repeat structure: Did not reach the stopping value -1 in measures.next:
+	mc
+	1        (2,)
+	2        (3,)
+	3        (4,)
+	4        (5,)
+	5        (6,)
+	6        (7,)
+	7        (8,)
+	8     (9, 11)
+	9       (10,)
+	10       (3,)
+	11      (12,)
+	12      (13,)
+	13      (14,)
+	14      (15,)
+	15      (16,)
+	16      (17,)
+	17      (18,)
+	18      (19,)
+	19       (1,)
+	Name: next, dtype: objectDCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.schumann_kinderszenen.n02 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4907) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             4a         }
+	            4a         {             8a         }
+	            8a         {            12a         }
+	           12a         {            16a         }
+	           16a         {            20a         }
+	           20a         {            24a         }
+	           24a         {            28a         }
+	           32a         {            32a         }
+	           36a         {            36a         }
+	           NaN       NaN            40a         }WARNING  ms3.Parse.schumann_kinderszenen.n05 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 597) unfold_facet_df():
+	Unfolding 'expanded DCML labels' unsuccessful. Check warnings concerning repeat structure and fix.DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.schumann_kinderszenen.n07 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4907) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             4a         }
+	            8a         {             8a         }
+	            8b         {             4b         }
+	           12a         {             8b         }
+	           17a         {            12a         }
+	           NaN       NaN            16a         }
+	           NaN       NaN            20a         }
+	           NaN       NaN            24a         }DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.schumann_kinderszenen.n09 -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	3 organ points started, 2 ended:
+	   mc pedal    mc pedalend
+	0   1     V     8        ]
+	1  17     I    24        ]
+	2  18     I  <NA>      NaNWARNING  ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3969) features2tpcs():
+	MC 30: #vii in major context corrected to vii.WARNING  ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3969) features2tpcs():
+	MC 42: #vii in major context corrected to vii.WARNING  ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3969) features2tpcs():
+	MC 30: #vii in major context corrected to vii.WARNING  ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3969) features2tpcs():
+	MC 42: #vii in major context corrected to vii.WARNING  ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3969) features2tpcs():
+	MC 2: #vii in major context corrected to vii.WARNING  ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3969) features2tpcs():
+	MC 2: #vii in major context corrected to vii.DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4907) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            5a         {             8a         }
+	            1b         {             4b         }
+	            5b         {             8b         }
+	            9a         {            12a         }
+	           12a         {            12b         }
+	            9b         {            16a         }
+	           12b         {            20a         }
+	           17a         {            24a         }
+	           21a         {            28a         }
+	           25a         {            32a         }
+	           29a         {            36a         }
+	           33a         {            40a         }
+	           37a         {            40b         }
+	           40a         {            44a         }
+	           37b         {            48a         }
+	           40b         {            NaN       NaN
+	           45a         {            NaN       NaNDCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.schumann_kinderszenen.n12 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4907) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            4a         {             8a         }
+	            9a         {            12a         }
+	           13a         {            16a         }
+	           20a         {            20a         }
+	           25a         {            24a         }
+	           NaN       NaN            30a         }WARNING  ms3.Parse.schumann_kinderszenen.n13 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3969) features2tpcs():
+	MC 12: #vii in major context corrected to vii.WARNING  ms3.Parse.schumann_kinderszenen.n13 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3969) features2tpcs():
+	MC 12: #vii in major context corrected to vii.WARNING  ms3.Parse.schumann_kinderszenen.n13 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3969) features2tpcs():
+	MC 12: #vii in major context corrected to vii.Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
+                                        mc  mn mc_onset     label    chord_tones added_tones  n_colored  n_untouched  count_ratio
+schumann_kinderszenen MS3/n07.mscx 46   17  16      1/2     i(64)     (2, 1, -2)          ()          3            1     0.750000
+                      MS3/n11.mscx 4     2   2      1/8  #viio6/V     (7, 4, 10)          ()          2            1     0.666667
+                                   41   14  14      1/8   viio6/V     (7, 4, 10)          ()          2            1     0.666667
+                                   83   30  30      1/8  #viio6/V     (7, 4, 10)          ()          2            1     0.666667
+                                   120  42  42      1/8  #viio6/V     (7, 4, 10)          ()          2            1     0.666667
+                      MS3/n12.mscx 48   16  16     7/16  V(64)|HC      (5, 4, 8)          ()          2            0     1.000000
+                      MS3/n13.mscx 27   12  12    71/16  I.viio7}  (6, 3, 0, -3)          ()          6            0     1.000000

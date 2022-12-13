@@ -1,20 +1,20 @@
-mc	mn	keysig	timesig	act_dur	mc_offset	volta	numbering_offset	dont_count	barline	breaks	repeats	markers	jump_bwd	jump_fwd	play_until	next
-1	0	2	2/4	1/8	3/8			1			firstMeasure					2
-2	1	2	2/4	1/2	0											3
-3	2	2	2/4	1/2	0						start					4
-4	3	2	2/4	1/2	0					line						5
-5	4	2	2/4	1/2	0											6
-6	5	2	2/4	1/2	0											7
-7	6	2	2/4	1/2	0											8
-8	7	2	2/4	1/2	0					line						9, 11
-9	8	2	2/4	1/2	0	1										10
-10	9	2	2/4	1/2	0	1					end					3
-11	8	2	2/4	1/2	0	2	-2									12
-12	9	2	2/4	1/2	0	2				line						13
-13	10	2	2/4	1/2	0											14
-14	11	2	2/4	1/2	0											15
-15	12	2	2/4	1/2	0											16
-16	13	2	2/4	1/2	0					line						17
-17	14	2	2/4	1/2	0											18
-18	15	2	2/4	1/2	0											19
-19	16	2	2/4	1/2	0				end		lastMeasure		start		end	1
+mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	keysig	timesig	act_dur	mc_offset	volta	numbering_offset	dont_count	barline	breaks	repeats	markers	jump_bwd	jump_fwd	play_until	next
+1	0	0	0	0.5	2	2/4	1/8	3/8			1			firstMeasure					2
+2	1	1/2	1/2	2.0	2	2/4	1/2	0											3
+3	2	5/2	5/2	2.0	2	2/4	1/2	0						start					4
+4	3	9/2	9/2	2.0	2	2/4	1/2	0					line						5
+5	4	13/2	13/2	2.0	2	2/4	1/2	0											6
+6	5	17/2	17/2	2.0	2	2/4	1/2	0											7
+7	6	21/2	21/2	2.0	2	2/4	1/2	0											8
+8	7	25/2	25/2	2.0	2	2/4	1/2	0					line						9, 11
+9	8		29/2	2.0	2	2/4	1/2	0	1										10
+10	9		33/2	2.0	2	2/4	1/2	0	1					end					3
+11	8	29/2	37/2	2.0	2	2/4	1/2	0	2	-2									12
+12	9	33/2	41/2	2.0	2	2/4	1/2	0	2				line						13
+13	10	37/2	45/2	2.0	2	2/4	1/2	0											14
+14	11	41/2	49/2	2.0	2	2/4	1/2	0											15
+15	12	45/2	53/2	2.0	2	2/4	1/2	0											16
+16	13	49/2	57/2	2.0	2	2/4	1/2	0					line						17
+17	14	53/2	61/2	2.0	2	2/4	1/2	0											18
+18	15	57/2	65/2	2.0	2	2/4	1/2	0											19
+19	16	61/2	69/2	2.0	2	2/4	1/2	0				end		lastMeasure		start		end	1
