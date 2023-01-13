@@ -32,18 +32,18 @@ DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.schumann_kinderszen
 	0   1     V     8        ]
 	1  17     I    24        ]
 	2  18     I  <NA>      NaN
-DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 42: ') ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
-	MC 42: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 30: ') ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
 	MC 30: #vii in major context corrected to vii.
-DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 42: ') ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
-	MC 42: #vii in major context corrected to vii.
-DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 2: ') ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
-	MC 2: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 30: ') ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
 	MC 30: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 2: ') ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
 	MC 2: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 2: ') ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
+	MC 2: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 42: ') ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
+	MC 42: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 42: ') ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
+	MC 42: #vii in major context corrected to vii.
 DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.schumann_kinderszenen.n11 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
