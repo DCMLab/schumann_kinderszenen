@@ -186,25 +186,30 @@
     <showMargins>1</showMargins>
     <metaTag name="annotators">Tal Soker (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1838</metaTag>
+    <metaTag name="composed_end">1839</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1838</metaTag>
     <metaTag name="composer">Robert Schumann</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2017-03-11</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Kinderszenen,_Op.15_(Schumann,_Robert)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">3</metaTag>
+    <metaTag name="movementTitle">Hasche-Mann</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
-    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/67290 </metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/7a8d4ff2-f178-39c5-b03b-4050606e11ef</metaTag>
+    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/67290</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AN, JHei, JH</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/22249306/scores/4778176</metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Kinderszenen Nos. 7 and 8</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/174865068/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q1569982</metaTag>
+    <metaTag name="workNumber">Op.15</metaTag>
+    <metaTag name="workTitle">Kinderszenen</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -276,6 +281,10 @@
           <offset x="0" y="-0.113947"/>
           <text>Hasche-Mann
 (Catch Me)</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Robert Schumann</text>
           </Text>
         </VBox>
       <Measure>
