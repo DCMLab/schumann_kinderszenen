@@ -192,7 +192,7 @@ License ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
 The file names listed in the [Overview](#overview) below refer to the
 [13 pieces contained in op. 15](https://imslp.org/wiki/Kinderszenen,_Op.15_(Schumann,_Robert)).
 
-# Overview
+## Overview
 |file_name|measures|labels|standard|              annotators              | reviewers  |
 |---------|-------:|-----:|--------|--------------------------------------|------------|
 |n01      |      22|    44|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)|AN, JHei, JH|
@@ -210,4 +210,4 @@ The file names listed in the [Overview](#overview) below refer to the
 |n13      |      25|    49|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)|AN, JHei    |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.1.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
