@@ -210,4 +210,4 @@ The file names listed in the [Overview](#overview) below refer to the
 |n13      |      25|    49|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)|AN, JHei    |
 
 
-*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
+*Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*

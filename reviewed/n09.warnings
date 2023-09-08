@@ -1,0 +1,17 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.schumann_kinderszenen.n09
+	propagate_pedal() failed with
+	3 organ points started, 2 ended:
+	   mc pedal    mc pedalend
+	0   1     V     8        ]
+	1  17     I    24        ]
+	2  18     I  <NA>      NaN
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.schumann_kinderszenen.n09
+	propagate_pedal() failed with
+	3 organ points started, 2 ended:
+	   mc pedal    mc pedalend
+	0   1     V     8        ]
+	1  17     I    24        ]
+	2  18     I  <NA>      NaN
