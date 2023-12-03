@@ -1,0 +1,197 @@
+mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	timesig	staff	voice	duration	nominal_duration	scalar	chord_id	dynamics	articulation	tempo	qpm	tempo_visible	slur	decrescendo_hairpin	crescendo_hairpin
+1	0	0	0	0.0	0	1/2	Dynamic	3/4	1	1	0				f							
+1	0	0	0	0.0	0	1/2	Tempo	3/4	1	1	0						(𝅘𝅥=138)	138.0	0.0			
+1	0	0	0	1.0	0	1/2	Chord	3/4	1	1	1/4	1/4	1	0						0		
+1	0	0	0	0.5	0	1/2	Chord	3/4	2	1	1/8	1/8	1	1								
+1	0	1/2	1/2	0.5	1/8	5/8	Chord	3/4	2	1	1/8	1/8	1	2								
+2	1	1	1	0.75	0	0	Chord	3/4	1	1	3/16	1/8	3/2	3								
+2	1	7/4	7/4	0.25	3/16	3/16	Chord	3/4	1	1	1/16	1/16	1	4								
+2	1	2	2	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	5		articMarcatoAbove						
+2	1	3	3	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	6		articMarcatoAbove						
+2	1	1	1	0.75	0	0	Chord	3/4	2	1	3/16	1/8	3/2	7								
+2	1	7/4	7/4	0.25	3/16	3/16	Chord	3/4	2	1	1/16	1/16	1	8								
+2	1	2	2	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	9		articMarcatoAbove						
+2	1	3	3	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	10		articMarcatoAbove						
+3	2	4	4	1.0	0	0	Chord	3/4	1	1	1/4	1/4	1	11		articMarcatoAbove						
+3	2	5	5	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	12		articMarcatoAbove						
+3	2	6	6	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	13						1		
+3	2	6	6	0.5	1/2	1/2	Chord	3/4	1	2	1/8	1/8	1	14								
+3	2	13/2	13/2	0.5	5/8	5/8	Chord	3/4	1	2	1/8	1/8	1	15								
+3	2	4	4	1.0	0	0	Chord	3/4	2	1	1/4	1/4	1	16		articMarcatoAbove						
+3	2	5	5	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	17		articMarcatoAbove						
+3	2	6	6	0.5	1/2	1/2	Chord	3/4	2	1	1/8	1/8	1	18								
+3	2	13/2	13/2	0.5	5/8	5/8	Chord	3/4	2	1	1/8	1/8	1	19								
+4	3	7	7	0.75	0	0	Chord	3/4	1	1	3/16	1/8	3/2	20								
+4	3	31/4	31/4	0.25	3/16	3/16	Chord	3/4	1	1	1/16	1/16	1	21								
+4	3	8	8	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	22		articMarcatoAbove						
+4	3	9	9	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	23		articMarcatoAbove						
+4	3	7	7	0.75	0	0	Chord	3/4	2	1	3/16	1/8	3/2	24								
+4	3	31/4	31/4	0.25	3/16	3/16	Chord	3/4	2	1	1/16	1/16	1	25								
+4	3	8	8	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	26		articMarcatoAbove						
+4	3	9	9	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	27		articMarcatoAbove						
+5	4	10	10	1.0	0	0	Chord	3/4	1	1	1/4	1/4	1	28		articMarcatoAbove						
+5	4	11	11	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	29		articMarcatoAbove						
+5	4	12	12	0.0	1/2	1/2	Dynamic	3/4	1	1	0				mf							
+5	4	12	12	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	30						2		
+5	4	10	10	1.0	0	0	Chord	3/4	2	1	1/4	1/4	1	31		articMarcatoAbove						
+5	4	11	11	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	32		articMarcatoAbove						
+5	4	12	12	0.5	1/2	1/2	Chord	3/4	2	1	1/8	1/8	1	33								
+5	4	25/2	25/2	0.5	5/8	5/8	Chord	3/4	2	1	1/8	1/8	1	34								
+6	5	13	13	0.75	0	0	Chord	3/4	1	1	3/16	1/8	3/2	35								
+6	5	55/4	55/4	0.25	3/16	3/16	Chord	3/4	1	1	1/16	1/16	1	36								
+6	5	14	14	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	37		articMarcatoAbove						
+6	5	15	15	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	38		articMarcatoAbove						
+6	5	13	13	0.75	0	0	Chord	3/4	2	1	3/16	1/8	3/2	39								
+6	5	55/4	55/4	0.25	3/16	3/16	Chord	3/4	2	1	1/16	1/16	1	40								
+6	5	14	14	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	41		articMarcatoAbove						
+6	5	15	15	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	42		articMarcatoAbove						
+7	6	16	16	0.0	0	0	Spanner	3/4	1	1	0										0	
+7	6	16	16	1.0	0	0	Chord	3/4	1	1	1/4	1/4	1	43		articMarcatoAbove					0	
+7	6	17	17	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	44		articMarcatoAbove					0	
+7	6	18	18	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	45						3	0	
+7	6	18	18	0.5	1/2	1/2	Chord	3/4	1	2	1/8	1/8	1	46							0	
+7	6	37/2	37/2	0.5	5/8	5/8	Chord	3/4	1	2	1/8	1/8	1	47							0	
+7	6	16	16	1.0	0	0	Chord	3/4	2	1	1/4	1/4	1	48		articMarcatoBelow						
+7	6	17	17	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	49		articMarcatoBelow						
+7	6	18	18	0.5	1/2	1/2	Chord	3/4	2	1	1/8	1/8	1	50								
+7	6	37/2	37/2	0.5	5/8	5/8	Chord	3/4	2	1	1/8	1/8	1	51								
+8	7	19	19	0.75	0	0	Chord	3/4	1	1	3/16	1/8	3/2	52						3	0	
+8	7	79/4	79/4	0.25	3/16	3/16	Chord	3/4	1	1	1/16	1/16	1	53							0	
+8	7	20	20	0.0	1/4	1/4	Spanner	3/4	1	1	0											
+8	7	20	20	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	54		articMarcatoAbove						
+8	7	21	21	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	55		articMarcatoAbove						
+8	7	19	19	0.75	0	0	Chord	3/4	2	1	3/16	1/8	3/2	56								
+8	7	79/4	79/4	0.25	3/16	3/16	Chord	3/4	2	1	1/16	1/16	1	57								
+8	7	20	20	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	58		articMarcatoBelow						
+8	7	21	21	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	59		articMarcatoBelow						
+9	8	22	22	1.0	0	0	Chord	3/4	1	1	1/4	1/4	1	60		articMarcatoAbove						
+9	8	23	23	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	61		articMarcatoAbove						
+9	8	22	22	1.0	0	0	Chord	3/4	2	1	1/4	1/4	1	62		articMarcatoBelow						
+9	8	23	23	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	63		articMarcatoBelow						
+10	8	24	24	0.0	0	1/2	Dynamic	3/4	1	1	0				ff							
+10	8	24	24	1.0	0	1/2	Chord	3/4	1	1	1/4	1/4	1	64								
+10	8	24	24	0.5	0	1/2	Chord	3/4	2	1	1/8	1/8	1	65								
+10	8	49/2	49/2	0.5	1/8	5/8	Chord	3/4	2	1	1/8	1/8	1	66								
+11	9	25	25	2.0	0	0	Chord	3/4	1	1	1/2	1/2	1	67								
+11	9	27	27	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	68								
+11	9	25	25	0.5	0	0	Chord	3/4	2	1	1/8	1/8	1	69		articAccentAbove						
+11	9	51/2	51/2	0.5	1/8	1/8	Chord	3/4	2	1	1/8	1/8	1	70								
+11	9	26	26	0.5	1/4	1/4	Chord	3/4	2	1	1/8	1/8	1	71								
+11	9	53/2	53/2	0.5	3/8	3/8	Chord	3/4	2	1	1/8	1/8	1	72								
+11	9	27	27	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	73								
+12	10	28	28	2.0	0	0	Chord	3/4	1	1	1/2	1/2	1	74		articMarcatoAbove						
+12	10	30	30	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	75								
+12	10	28	28	0.5	0	0	Chord	3/4	2	1	1/8	1/8	1	76		articAccentAbove						
+12	10	57/2	57/2	0.5	1/8	1/8	Chord	3/4	2	1	1/8	1/8	1	77								
+12	10	29	29	0.5	1/4	1/4	Chord	3/4	2	1	1/8	1/8	1	78								
+12	10	59/2	59/2	0.5	3/8	3/8	Chord	3/4	2	1	1/8	1/8	1	79								
+12	10	30	30	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	80								
+13	11	31	31	1.0	0	0	Chord	3/4	1	1	1/4	1/4	1	81		articMarcatoAbove						
+13	11	32	32	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	82		articMarcatoAbove						
+13	11	33	33	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	83		articMarcatoAbove						
+13	11	31	31	0.5	0	0	Chord	3/4	2	1	1/8	1/8	1	84		articAccentAbove						
+13	11	63/2	63/2	0.5	1/8	1/8	Chord	3/4	2	1	1/8	1/8	1	85								
+13	11	32	32	0.5	1/4	1/4	Chord	3/4	2	1	1/8	1/8	1	86								
+13	11	65/2	65/2	0.5	3/8	3/8	Chord	3/4	2	1	1/8	1/8	1	87								
+13	11	33	33	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	88								
+14	12	34	34	0.0	0	0	Dynamic	3/4	1	1	0				sf							
+14	12	34	34	3.0	0	0	Chord	3/4	1	1	3/4	1/2	3/2	89								
+14	12	34	34	0.5	0	0	Chord	3/4	2	1	1/8	1/8	1	90		articAccentAbove						
+14	12	69/2	69/2	0.5	1/8	1/8	Chord	3/4	2	1	1/8	1/8	1	91								
+14	12	35	35	0.5	1/4	1/4	Chord	3/4	2	1	1/8	1/8	1	92								
+14	12	71/2	71/2	0.5	3/8	3/8	Chord	3/4	2	1	1/8	1/8	1	93								
+14	12	36	36	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	94								
+15	13	37	37	0.0	0	0	Spanner	3/4	1	1	0											0
+15	13	37	37	1.0	0	0	Chord	3/4	1	1	1/4	1/4	1	95		articMarcatoAbove						0
+15	13	38	38	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	96		articMarcatoAbove						0
+15	13	39	39	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	97		articMarcatoAbove						0
+15	13	37	37	0.5	0	0	Chord	3/4	2	1	1/8	1/8	1	98								
+15	13	75/2	75/2	0.5	1/8	1/8	Chord	3/4	2	1	1/8	1/8	1	99								
+15	13	38	38	0.5	1/4	1/4	Chord	3/4	2	1	1/8	1/8	1	100								
+15	13	77/2	77/2	0.5	3/8	3/8	Chord	3/4	2	1	1/8	1/8	1	101								
+15	13	39	39	0.5	1/2	1/2	Chord	3/4	2	1	1/8	1/8	1	102								
+15	13	79/2	79/2	0.5	5/8	5/8	Chord	3/4	2	1	1/8	1/8	1	103								
+16	14	40	40	0.0	0	0	Spanner	3/4	1	1	0											
+16	14	40	40	1.0	0	0	Chord	3/4	1	1	1/4	1/4	1	104		articMarcatoAbove						
+16	14	41	41	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	105		articMarcatoAbove						
+16	14	42	42	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	106		articMarcatoAbove						
+16	14	40	40	1.0	0	0	Chord	3/4	2	1	1/4	1/4	1	107		articMarcatoAbove						
+16	14	41	41	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	108		articMarcatoAbove						
+16	14	42	42	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	109		articMarcatoAbove						
+17	15	43	43	0.75	0	0	Chord	3/4	1	1	3/16	1/8	3/2	110		articMarcatoAbove						
+17	15	175/4	175/4	0.25	3/16	3/16	Chord	3/4	1	1	1/16	1/16	1	111								
+17	15	44	44	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	112		articMarcatoAbove						
+17	15	45	45	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	113		articMarcatoAbove						
+17	15	43	43	0.75	0	0	Chord	3/4	2	1	3/16	1/8	3/2	114		articMarcatoAbove						
+17	15	175/4	175/4	0.25	3/16	3/16	Chord	3/4	2	1	1/16	1/16	1	115								
+17	15	44	44	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	116		articMarcatoAbove						
+17	15	45	45	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	117		articMarcatoAbove						
+18	16	46	46	1.0	0	0	Chord	3/4	1	1	1/4	1/4	1	118		articMarcatoAbove						
+18	16	46	46	1.0	0	0	Chord	3/4	2	1	1/4	1/4	1	119		articMarcatoAbove						
+19	16	48	48	0.0	0	1/2	Dynamic	3/4	1	1	0				f							
+19	16	48	48	1.0	0	1/2	Chord	3/4	1	1	1/4	1/4	1	120						4		
+19	16	48	48	0.5	0	1/2	Chord	3/4	2	1	1/8	1/8	1	121								
+19	16	97/2	97/2	0.5	1/8	5/8	Chord	3/4	2	1	1/8	1/8	1	122								
+20	17	49	49	0.75	0	0	Chord	3/4	1	1	3/16	1/8	3/2	123								
+20	17	199/4	199/4	0.25	3/16	3/16	Chord	3/4	1	1	1/16	1/16	1	124								
+20	17	50	50	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	125		articMarcatoAbove						
+20	17	51	51	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	126		articMarcatoAbove						
+20	17	49	49	0.75	0	0	Chord	3/4	2	1	3/16	1/8	3/2	127								
+20	17	199/4	199/4	0.25	3/16	3/16	Chord	3/4	2	1	1/16	1/16	1	128								
+20	17	50	50	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	129		articMarcatoAbove						
+20	17	51	51	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	130		articMarcatoAbove						
+21	18	52	52	1.0	0	0	Chord	3/4	1	1	1/4	1/4	1	131		articMarcatoAbove						
+21	18	53	53	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	132		articMarcatoAbove						
+21	18	54	54	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	133						5		
+21	18	54	54	0.5	1/2	1/2	Chord	3/4	1	2	1/8	1/8	1	134								
+21	18	109/2	109/2	0.5	5/8	5/8	Chord	3/4	1	2	1/8	1/8	1	135								
+21	18	52	52	1.0	0	0	Chord	3/4	2	1	1/4	1/4	1	136		articMarcatoAbove						
+21	18	53	53	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	137		articMarcatoAbove						
+21	18	54	54	0.5	1/2	1/2	Chord	3/4	2	1	1/8	1/8	1	138								
+21	18	109/2	109/2	0.5	5/8	5/8	Chord	3/4	2	1	1/8	1/8	1	139								
+22	19	55	55	0.75	0	0	Chord	3/4	1	1	3/16	1/8	3/2	140								
+22	19	223/4	223/4	0.25	3/16	3/16	Chord	3/4	1	1	1/16	1/16	1	141								
+22	19	56	56	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	142		articMarcatoAbove						
+22	19	57	57	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	143		articMarcatoAbove						
+22	19	55	55	0.75	0	0	Chord	3/4	2	1	3/16	1/8	3/2	144								
+22	19	223/4	223/4	0.25	3/16	3/16	Chord	3/4	2	1	1/16	1/16	1	145								
+22	19	56	56	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	146		articMarcatoAbove						
+22	19	57	57	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	147		articMarcatoAbove						
+23	20	58	58	1.0	0	0	Chord	3/4	1	1	1/4	1/4	1	148		articMarcatoAbove						
+23	20	59	59	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	149		articMarcatoAbove						
+23	20	60	60	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	150						6		
+23	20	58	58	1.0	0	0	Chord	3/4	2	1	1/4	1/4	1	151		articMarcatoAbove						
+23	20	59	59	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	152		articMarcatoAbove						
+23	20	60	60	0.5	1/2	1/2	Chord	3/4	2	1	1/8	1/8	1	153								
+23	20	121/2	121/2	0.5	5/8	5/8	Chord	3/4	2	1	1/8	1/8	1	154								
+24	21	61	61	0.75	0	0	Chord	3/4	1	1	3/16	1/8	3/2	155								
+24	21	247/4	247/4	0.25	3/16	3/16	Chord	3/4	1	1	1/16	1/16	1	156								
+24	21	62	62	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	157		articMarcatoAbove						
+24	21	63	63	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	158		articMarcatoAbove						
+24	21	61	61	0.75	0	0	Chord	3/4	2	1	3/16	1/8	3/2	159								
+24	21	247/4	247/4	0.25	3/16	3/16	Chord	3/4	2	1	1/16	1/16	1	160								
+24	21	62	62	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	161		articMarcatoAbove						
+24	21	63	63	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	162		articMarcatoAbove						
+25	22	64	64	0.0	0	0	Spanner	3/4	1	1	0										1	
+25	22	64	64	1.0	0	0	Chord	3/4	1	1	1/4	1/4	1	163		articMarcatoAbove					1	
+25	22	65	65	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	164		articMarcatoAbove					1	
+25	22	66	66	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	165						7	1	
+25	22	66	66	0.5	1/2	1/2	Chord	3/4	1	2	1/8	1/8	1	166							1	
+25	22	133/2	133/2	0.5	5/8	5/8	Chord	3/4	1	2	1/8	1/8	1	167							1	
+25	22	64	64	1.0	0	0	Chord	3/4	2	1	1/4	1/4	1	168		articMarcatoBelow						
+25	22	65	65	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	169		articMarcatoBelow						
+25	22	66	66	0.5	1/2	1/2	Chord	3/4	2	1	1/8	1/8	1	170								
+25	22	133/2	133/2	0.5	5/8	5/8	Chord	3/4	2	1	1/8	1/8	1	171								
+26	23	67	67	0.75	0	0	Chord	3/4	1	1	3/16	1/8	3/2	172							1	
+26	23	271/4	271/4	0.25	3/16	3/16	Chord	3/4	1	1	1/16	1/16	1	173							1	
+26	23	68	68	0.0	1/4	1/4	Spanner	3/4	1	1	0											
+26	23	68	68	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	174		articMarcatoAbove						
+26	23	69	69	1.0	1/2	1/2	Chord	3/4	1	1	1/4	1/4	1	175		articMarcatoAbove						
+26	23	67	67	0.75	0	0	Chord	3/4	2	1	3/16	1/8	3/2	176								
+26	23	271/4	271/4	0.25	3/16	3/16	Chord	3/4	2	1	1/16	1/16	1	177								
+26	23	68	68	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	178		articMarcatoBelow						
+26	23	69	69	1.0	1/2	1/2	Chord	3/4	2	1	1/4	1/4	1	179		articMarcatoBelow						
+27	24	70	70	1.0	0	0	Chord	3/4	1	1	1/4	1/4	1	180		articMarcatoAbove						
+27	24	71	71	1.0	1/4	1/4	Chord	3/4	1	1	1/4	1/4	1	181		articMarcatoAbove						
+27	24	70	70	1.0	0	0	Chord	3/4	2	1	1/4	1/4	1	182		articMarcatoBelow						
+27	24	71	71	1.0	1/4	1/4	Chord	3/4	2	1	1/4	1/4	1	183		articMarcatoBelow						
