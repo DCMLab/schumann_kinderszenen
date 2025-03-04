@@ -187,6 +187,7 @@
     <metaTag name="annotators">Tal Soker (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="comments">measurcount differs from pdf � second house not excluded in original</metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1839</metaTag>
     <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1838</metaTag>
