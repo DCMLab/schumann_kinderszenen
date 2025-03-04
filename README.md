@@ -3,6 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/schumann_kinderszenen)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
 
+
 This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
 and serves as welcome page for both 
 
@@ -31,7 +32,7 @@ For information on how to obtain and use the dataset, please refer to [this docu
   * [Generating all TSV files from the scores](#generating-all-tsv-files-from-the-scores)
   * [Questions, Suggestions, Corrections, Bug Reports](#questions-suggestions-corrections-bug-reports)
   * [License](#license)
-  * [Naming convention](#naming-convention)
+  * [File naming convention](#file-naming-convention)
   * [Overview](#overview)
 <!-- TOC -->
 
@@ -185,14 +186,15 @@ with the ones currently present in the harmonies TSV files and reflect the compa
 
 ## Questions, Suggestions, Corrections, Bug Reports
 
-For questions, remarks etc., please create an issue and feel free to fork and submit pull requests.
+Please [create an issue](https://github.com/DCMLab/schumann_kinderszenen/issues) and/or feel free to fork and submit pull requests.
 
 ## License
 
-Creative Commons Attribution-ShareAlike 4.0 International
-License ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
 
-## Naming convention
+![cc-by-nc-sa-image](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
+## File naming convention
 
 The file names listed in the [Overview](#overview) below refer to the
 [13 pieces contained in op. 15](https://imslp.org/wiki/Kinderszenen,_Op.15_(Schumann,_Robert)).
