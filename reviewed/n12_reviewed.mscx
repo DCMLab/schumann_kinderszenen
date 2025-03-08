@@ -191,6 +191,7 @@
     <showMargins>1</showMargins>
     <metaTag name="annotators">Tal Soker (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1839</metaTag>
     <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1838</metaTag>
@@ -4845,6 +4846,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>v-ii/III{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v{-ii/III{</name>
+            <color r="0" g="85" b="0" a="255"/>
             <minDistance>-4.23371</minDistance>
             <offset x="-1.26634" y="13.9975"/>
             </Harmony>
