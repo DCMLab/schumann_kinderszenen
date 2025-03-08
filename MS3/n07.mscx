@@ -5433,7 +5433,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V64-V43{</name>
+            <name>V64{-V43{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
