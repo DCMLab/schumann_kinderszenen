@@ -3,8 +3,6 @@ Warnings encountered during the last execution of ms3 review
 
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.schumann_kinderszenen.n11
 	No metronome mark found in the first measure nor anywhere else in the score.
-DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 42: ') ms3.Parse.schumann_kinderszenen.n11
-	MC 42: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 2: ') ms3.Parse.schumann_kinderszenen.n11
 	MC 2: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 30: ') ms3.Parse.schumann_kinderszenen.n11
@@ -15,6 +13,8 @@ DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 2: ') ms3.Parse.schumann_kinderszenen.n
 	MC 2: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 30: ') ms3.Parse.schumann_kinderszenen.n11
 	MC 30: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 42: ') ms3.Parse.schumann_kinderszenen.n11
+	MC 42: #vii in major context corrected to vii.
 DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.schumann_kinderszenen.n11
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
@@ -36,8 +36,6 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.schumann_kinderszenen.n11
 	           37b         {            48a         }
 	           40b         {            NaN       NaN
 	           45a         {            NaN       NaN
-DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 42: ') ms3.Parse.schumann_kinderszenen.n11
-	MC 42: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 2: ') ms3.Parse.schumann_kinderszenen.n11
 	MC 2: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 30: ') ms3.Parse.schumann_kinderszenen.n11
@@ -48,6 +46,8 @@ DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 2: ') ms3.Parse.schumann_kinderszenen.n
 	MC 2: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 30: ') ms3.Parse.schumann_kinderszenen.n11
 	MC 30: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 42: ') ms3.Parse.schumann_kinderszenen.n11
+	MC 42: #vii in major context corrected to vii.
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 2, '1/8', '#viio6/V') ms3.Parse.schumann_kinderszenen.n11
 	The label '#viio6/V' in m. 2, onset 1/8 (MC 2, onset 1/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of e.i, it expresses the scale degrees
