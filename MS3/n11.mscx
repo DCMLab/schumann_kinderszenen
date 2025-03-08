@@ -6900,7 +6900,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V(6){</name>
+            <name>i.V(6)</name>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -6920,7 +6920,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Rest>
             <offset x="0" y="3.92308"/>
