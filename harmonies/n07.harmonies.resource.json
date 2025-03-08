@@ -22,8 +22,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.5.4"
+    "softwareVersion": "2.5.3"
   },
-  "git_revision": "820d7230ce766790d217654d423d10eb390b33ff",
-  "git_tag": "v2.1"
+  "git_revision": "8dea494338c11b799180aa7bf508ee02eb6e0ef3",
+  "git_tag": "v2.1-5-g8dea494"
 }
