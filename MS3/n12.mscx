@@ -4824,7 +4824,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v-ii/III{</name>
+            <name>v{-ii/III{</name>
             <minDistance>-4.23371</minDistance>
             <offset x="-1.26634" y="13.9975"/>
             </Harmony>
