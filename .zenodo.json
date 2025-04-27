@@ -2,26 +2,31 @@
     "license": "CC-BY-NC-SA-4.0",
     "contributors": [
         {
-            "type": "DataCollector",
-            "name": "Adrian Nagel"
+            "name": "Nagel, Adrian",
+            "type": "Annotator"
         },
         {
-            "type": "DataCollector",
-            "name": "John Heilig"
+            "name": "Hentschel, Johannes",
+            "type": "Annotator",
+            "orcid": "0000-0002-1986-9545"
         },
         {
-            "type": "DataCollector",
-            "name": "Tal Soker"
+            "name": "Heilig, John",
+            "type": "Annotator"
         },
         {
-            "orcid": "0000-0002-2105-525X",
+            "name": "Soker, Tal",
+            "type": "Annotator"
+        },
+        {
+            "name": "Becker, Hanné",
             "type": "DataCurator",
-            "name": "Hanné Becker"
+            "orcid": "0000-0002-2105-525X"
         },
         {
-            "orcid": "0000-0002-1986-9545",
+            "name": "Hentschel, Johannes",
             "type": "DataCurator",
-            "name": "Johannes Hentschel"
+            "orcid": "0000-0002-1986-9545"
         }
     ],
     "title": "Robert Schumann – Kinderszenen",
